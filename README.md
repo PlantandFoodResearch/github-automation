@@ -1,5 +1,3 @@
-# github-automation
-Scripts and tools to automate github
 # GitHub Automation
 
 We can do most necessary source code management using the git command line but git doesn't let us do much in the way of controlling a remote git repository. After all it is just a URL and we don't know much about how new people, memberships or repositories are managed in systems like BitBucket or GitHub. 
@@ -24,6 +22,9 @@ We can then include -u username:personal_token in the curl command line or can u
     machine api.bitbucket.org
     login <your username>
     password <your personal access token>
+
+## List user info
+    curl -n https://api.github.com/users/avowkind
 
 ## List a user's organisations
     curl -n https://api.github.com/user/orgs
@@ -66,13 +67,6 @@ After using the SSO button on the personal access token and authenticating with 
     "example-internal"
     "example-private"
 
-## Listing Functions
-### List user info
-    curl -n https://api.github.com/users/avowkind
-
-### List Repos
-    curl -n https://api.github.com/orgs/PlantandFoodResearch/repos | jq ".[] | .name
-    curl -n https://api.github.com/orgs/pfrnz/repos | jq ".[] | .name
 
 ## Creating a Repository
 https://developer.github.com/v3/repos/#create-an-organization-repository
