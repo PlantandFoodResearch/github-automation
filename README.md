@@ -104,3 +104,8 @@ The `pfrnz' organization has enabled or enforced SAML SSO. To access
 this repository, you must use the HTTPS remote with a personal access token
 or SSH with an SSH key and passphrase that has been whitelisted for this organization. Visit https://help.github.com/articles/authenticating-to-a-github-organization-with-saml-single-sign-on/ for more information.
 
+
+# Member Management
+## get members list
+GET /orgs/:org/members
+https://api.github.com/orgs/PlantandFoodResearch/members

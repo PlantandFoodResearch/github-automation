@@ -1,0 +1,31 @@
+{
+  "projects": [
+      {
+          "name": "JSON Import test",
+          "key": "JIT",
+          "issues": [
+              {
+                  "key" : "JIT-2",
+                  "status" : "To Do",
+                  "reporter" : "Andrew Watkins (PFR)",
+                  "summary" : "Test only",
+                  "description" : "The modifications to the add plant form have left out the add plant and add location links.\n\nThese were Plus symbols next to the input and search widget links for those fields.\n",
+                  "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/46",
+                  "parent": "JIT-601",
+                  "comments": [
+                    {
+                        "body": "This is a comment from admin 5 days ago",
+                        "author": "Andrew Watkins (PFR)",
+                        "created": "2012-08-31T17:59:02.161+0100"
+                    },
+                    {
+                        "body": "This is a comment from admin 1 day ago",
+                        "author": "Andrew Watkins (PFR)",
+                        "created": "2012-08-31T17:59:02.161+0100"
+                    }
+                ]
+              }
+          ]
+      }
+  ]
+}

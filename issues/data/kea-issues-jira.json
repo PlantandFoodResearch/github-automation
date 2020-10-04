@@ -1,0 +1,861 @@
+{
+  "projects": [
+    {
+      "name": "JSON Import test",
+      "key": "JIT",
+      "issues": [
+        {
+          "summary": "Provenance model lookup not working with LocalIDs",
+          "key": "JIT-599",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "It appears that any call to the:\r\n/provenance​/{provenance_id}​/model​/{provenance_model_id}​/\r\nendpoint gives an the error:\r\nresolved field 'XXXXX' with 'exact' lookup to an unrecognized field type LocalIDField\r\n\r\nIt seems that there is nothing to handle look ups for LocaID field types.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/599",
+          "labels": []
+        },
+        {
+          "summary": "view-schema incompatibility error on start up",
+          "key": "JIT-598",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "I'mgetting this on start up:\r\n\r\n/```\r\nhome/zane/programming/virtenv/kea_py3/lib/python3.7/site-packages/django_filters/rest_framework/backends.py:128: UserWarning: <class 'kea.api.views.crop.CropViewSet'> is not compatible with schema generation\r\n  \"{} is not compatible with schema generation\".format(view.__class__)\r\n/home/zane/programming/virtenv/kea_py3/lib/python3.7/site-packages/django_filters/rest_framework/backends.py:128: UserWarning: <class 'kea.api.views.provenance.ProvenanceViewSet'> is not compatible with schema generation\r\n  \"{} is not compatible with schema generation\".format(view.__class__)\r\n```\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/598",
+          "labels": []
+        },
+        {
+          "summary": "relation entry in path array wrong by one",
+          "key": "JIT-597",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "For each of the samples you have a \"path\" array.\r\nThe attribute \"relation\" is listed as the name of the table in the previous path entry and the first entry is empty.\r\n\r\nI don't know whether it is by design but if it is it is confusing. It needs to be the name of the current relation/table/model.\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/597",
+          "labels": [
+            "API",
+            "Provenance",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Authentication to LDAPS",
+          "key": "JIT-594",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "I need to get our Active Directory authentication moved over to LDAPS.\r\nAnd I am being hassled bythe infrastructure team to do it.\r\n\r\nNOT for Python 3 upgrade.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/594",
+          "labels": [
+            "Requirement",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Need space stripping on DB Entities in Process spreadsheet uploads",
+          "key": "JIT-592",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "(not for Py3 upgrade)\r\nKatrina Monaghan had problems with appending a space char on a Location when uploading a process spreadsheet.\r\n\r\nThere needs to be some space stripping to ensure this does not happen.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/592",
+          "labels": [
+            "Process Handling",
+            "UI Issue"
+          ]
+        },
+        {
+          "summary": "EBrida import producing plates with one sample each",
+          "key": "JIT-590",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "For the eBrida sample initialisation\r\n\"Sample Initialisation->Initialise eBrida\"\r\n\r\nIn the spreadsheet and the plate, there is only one sample assigned at the starting point of each plate.\r\nThis means that for a 150 entry eBrida spreadsheet with a plate set size of 2. \r\n300 plates are produced with only the first well populated.\r\n\r\nIt all works though and no errors were produced.\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/590",
+          "labels": [
+            "EBrida_interface",
+            "Python3_upgrade",
+            "Sample Init"
+          ]
+        },
+        {
+          "summary": "SampleExtract Processes API Endpoints",
+          "key": "JIT-589",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "There appears to be a hole in the API where getting access to data in SampleExtract processes is non-existent.\r\n\r\nNot for you William et al",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/589",
+          "labels": [
+            "API",
+            "Process Handling"
+          ]
+        },
+        {
+          "summary": "Plant location upload error reporting is funky",
+          "key": "JIT-587",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When a bad file is uploaded to the:\r\nSample Initialisation->Upload Plant Locations,    interface.\r\nWe get this: (included the files dir)\r\n[_ Kea Upload Excel for Sample Batch.zip](https://github.com/PlantandFoodResearch/Kea/files/4084108/_.Kea.Upload.Excel.for.Sample.Batch.zip)\r\n\"thiscoordName\" is in the line.\r\nIt shouldn't be.\r\n\r\nWilliam:\r\nI will look at this. It is in the original on staging and live.\r\n\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/587",
+          "labels": [
+            "Sample Init",
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Sample Extract plate viewer and editor not swapping wells",
+          "key": "JIT-570",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When I attempt to swap 2 wells in the Sample Extract Plate viewer/editor it only seems to delete one of them.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/570",
+          "labels": [
+            "bug"
+          ]
+        },
+        {
+          "summary": "Sample selection popup is single select in process create",
+          "key": "JIT-561",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "the sample selection popup is set to single select in the \"Create Process Run\" tab.\r\nProbably connected to #559 \r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/561",
+          "labels": [
+            "Process Handling",
+            "Python3_upgrade"
+          ]
+        },
+        {
+          "summary": "Some unit handling required",
+          "key": "JIT-558",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Working with the Grape and Wine people who mainly deal with the chemistry of their samples has made it obvious that we may need to be able to deal with measurement units a bit more intelligently.\r\n\r\nUsing something like [Pint]( https://pint.readthedocs.io/en/latest/ ) could simplify things.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/558",
+          "labels": [
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "The quick batch is producing data list in reverse order",
+          "key": "JIT-557",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Apparently the data tab of the quick batch list is in the reverse order to what they are used to.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/557",
+          "labels": [
+            "Sample Init",
+            "UI Issue"
+          ]
+        },
+        {
+          "summary": "Altnames in plate maps",
+          "key": "JIT-556",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "A request has been made that we display the plant altnames in the plate maps in batch spreadsheets.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/556",
+          "labels": [
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Header Capitalisation of Datagrid Spreadsheet Dumps",
+          "key": "JIT-553",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The headers for many of the datagrid spreadsheet dumps are having their capitalisation modified somewhere.\r\nThis means pH is being changed to Ph and mg/L is being changed to Mg/L \r\n(which actually changes the meaning to mega-grams/litre!)\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/553",
+          "labels": [
+            "Datagrid",
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "berry analysis and harvest processes need merging into one report",
+          "key": "JIT-552",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The Grape and Wine people need to be able to see the data from Berry analysis and Harvest togther on one report.\r\nThis will require putting the JSON data from 2 processes together.\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/552",
+          "labels": [
+            "Process Handling",
+            "Report"
+          ]
+        },
+        {
+          "summary": "Specimen IDs in processrun spread sheets (feature)",
+          "key": "JIT-551",
+          "status": "To Do",
+          "description": "@zanejg \r\nWhen executing a processrun with a large number of samples it can be confusing.\r\nIs it possible to include the specimen Id in the first column before the sample ID?\r\nI know this is a stretch...",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/551",
+          "labels": [
+            "Process Handling"
+          ]
+        },
+        {
+          "summary": "Markers and Mapping processes not quite working",
+          "key": "JIT-548",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The plates one is not setting the sample container properly.\r\n\r\nI need to properly check what's going on.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/548",
+          "labels": []
+        },
+        {
+          "summary": "Wonky Lot ID",
+          "key": "JIT-543",
+          "status": "To Do",
+          "description": "This looks wrong but its a doubled up vine from Tissue culture I believe\r\n\r\n\r\n| PlantID     | Sample ID | Population | Plant Alt Names                 | Collection Date | Plate No | Position on Plate(s) | Plant Location:Kiwifruit Orchard Vine | Row | Block | Vine ID | Bay Number | Plant Parent Location |\r\n|-------------|-----------|------------|---------------------------------|-----------------|----------|----------------------|---------------------------------------|-----|-------|---------|------------|-----------------------|\r\n| Kiw1L1F7.01 | BCA9914   | POP0Y1D    | 733543, 733121, 754275, CK51_09 |                 | 1VPY     | E4                   | T15.25-04-01a                         | 04  | 25    | a       | 01         | Te Puke               |\r\n| Kiw1L1F7.01 | BCA9915   | POP0Y1D    | 733543, 733121, 754275, CK51_09 |                 | 1VPZ     | E4                   | T15.25-04-01a                         | 04  | 25    | a       | 01         | Te Puke               |\r\n| Kiw1L1F7.01 | BCA9916   | POP0Y1D    | 733543, 733121, 754275, CK51_09 |                 | 1VPY     | F4                   | T15.25-04-01a                         | 04  | 25    | a       | 01         | Te Puke               |\r\n| Kiw1L1F7.01 | BCA9917   | POP0Y1D    | 733543, 733121, 754275, CK51_09 |                 | 1VPZ     | F4                   | T15.25-04-01a                         | 04  | 25    | a       | 01         | Te Puke               |\r\n\r\n\r\n### eBrida trial entry is\r\n\r\n\r\n| TrlId | Trial_Type      | Trial_Name                  | PlotId  | Plot | Pedigree_Item | Group_Code    | From_Breeding_Operation | Subprogram_ObsDate | Subprogram | BarCodeString | Psa | PsaSecSymp | sexObs | sexPred | sexTestRes | Contract | VineStatus | Stock_Value | posInTray_ObsDate | posInTray | keaId_plot | Plate | NumberOfPlants | LotId  | PdiId | id     |\r\n|-------|-----------------|-----------------------------|---------|------|---------------|---------------|-------------------------|--------------------|------------|---------------|-----|------------|--------|---------|------------|----------|------------|-------------|-------------------|-----------|------------|-------|----------------|--------|-------|--------|\r\n| 1094  | Transplantation | Te Puke Collection Block 25 | 1138323 | 139  | CK51_09       | T15.25-04-01a | Import Collections TP   |                    |            | TPCB25|0139   |     |            |        |         |            |          |            | 1           |                   |           |            |       | 1              | 733543 | 19816 | 257813 |\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/543",
+          "labels": [
+            "Sample Init"
+          ]
+        },
+        {
+          "summary": "maintain order of specimen types at sample init",
+          "key": "JIT-542",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "when samples are initialised in provenance we need to enure that the sample id order has some determinacy.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/542",
+          "labels": [
+            "Provenance",
+            "Sample Init",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Choking with One PI",
+          "key": "JIT-541",
+          "status": "To Do",
+          "description": "\r\n```\r\nPedigree Item | Plot | LotId | Group | Mother | Father | Barcode | BreederName | Synonyms | From Ped. Item | Start Date | Plot Location\r\n-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --\r\nCK13_03 | 83 | 753712 |   |   |   | KKCB03\\|0083 | Russell Lowe | G2A1 | CK13_03 | 07/12/2015 | K97.03-06-01a\r\n```\r\nfails with\r\n\r\n>[2018-01-25 17:08:23,752][kea.ebrida.management.commands.ebrida_import][WARNING] Row#:6 Column:Pedigree Item...Genotype already exists with CK13_03 as an altname",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/541",
+          "labels": [
+            "bug"
+          ]
+        },
+        {
+          "summary": "Dates on datgrid dumps are swapping month/day",
+          "key": "JIT-539",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When a Excel dump is taken from a process report the some of the dates are swapping day and month numbers in the spreadsheet.\r\n\r\nThis only seems to happen when the numbers are below 12.\r\nSee Berry Analysis report.\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/539",
+          "labels": [
+            "Datagrid",
+            "bug"
+          ]
+        },
+        {
+          "summary": "sample initialisation with specimen upload file",
+          "key": "JIT-538",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Perhaps a interface where uploading the list of specimens instead of choosing them from the datagrid.\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/538",
+          "labels": [
+            "Provenance",
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "add uploaded sample count to browse processruns",
+          "key": "JIT-536",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Marc  wants the count of how many samples have been uploaded in a processrun already.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/536",
+          "labels": [
+            "Process Handling",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Grape and Wine Juice etc Datafix",
+          "key": "JIT-533",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "We need to sort out the juices and wines that have been put into trial plots.\r\nWe also need to ensure that we are going to accommodate the data that the likes of Claire Grose will be entering.\r\n\r\n\r\nWith this in mind we have decided to:\r\n- The new tables are defined by the attached spreadsheets\r\n[storedjuice (8).xlsx](https://github.com/PlantandFoodResearch/Kea/files/1570163/storedjuice.8.xlsx)\r\n[trialplot (54).xlsx](https://github.com/PlantandFoodResearch/Kea/files/1570165/trialplot.54.xlsx)\r\n\r\n\r\n- leave some of the juices in trial plots. In \"marcs_data_to_fix\" file the ones marked as juice or wine are to be removed and added to juice table.\r\n- add Vintage to the trial plot table. compulsory... will need to give a useful default\r\n- add container-type to trialplot non-compulsory\r\n- remove initial volume and units from stored juice\r\n- concat the present data in stored juice for the previous bullet to description to preserve the data.\r\n- add container-type to stored juice\r\n[marcs_data_to_fix_20171212.xlsx](https://github.com/PlantandFoodResearch/Kea/files/1570117/marcs_data_to_fix_20171212.xlsx)\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/533",
+          "labels": [
+            "Provenance",
+            "in progress"
+          ]
+        },
+        {
+          "summary": "Fill whole plates despite population ends",
+          "key": "JIT-527",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When initialising samples in eBrida upload,\r\nthe wells at the end of the plate sequence are skipped when the population will only just go beyond the end of the plate.\r\n\r\nThere has been a request to provide the ability to disable this.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/527",
+          "labels": [
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Unwanted blank wells in sample initialisation",
+          "key": "JIT-520",
+          "status": "To Do",
+          "description": "From Mareike\r\n\r\n> I have an issue with KEA. I have attached the input and output file of the samples I wanted initialised. I have done this in KEAtest.\r\nThey are multiple populations and I didn’t want blank wells between populations- see below, not ticked.\r\nAs you can see in the output file KEA doesn’t fill up a plate. It leaves all or some of the wells in column 12 empty.\r\n\r\n\r\n![image001](https://user-images.githubusercontent.com/14065102/33453791-cd3482ae-d67b-11e7-8cf5-4901fb6529d4.png)\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/520",
+          "labels": [
+            "Sample Init",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Process run results in proxy error on testing",
+          "key": "JIT-518",
+          "status": "To Do",
+          "description": "I received this via email from Ana Claasen:\r\n\r\n> Slipstream have completed kiwifruit sex testing for PFR and I am currently trying to upload results to Kea. I have been attempting to test the process (Sex screening into plate) in keatest.pfr.co.nz and I keep running into the error below when downloading an excel spreadsheet for the process.\r\n\r\n![image jpg](https://user-images.githubusercontent.com/14065102/32806582-e2f23c44-c9f1-11e7-860d-1215d66bc2a8.jpeg)\r\n\r\n> Do you have any idea what might be causing the issue? Does this seem like an error that may be restricted to Kea test and not Kea actual? I'm not sure if they run on the same server.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/518",
+          "labels": [
+            "Testing",
+            "bug"
+          ]
+        },
+        {
+          "summary": "convert juice trial plots to juice specimens",
+          "key": "JIT-504",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "We need to convert the trial plots that were created in haste that were actually juices to actual juice specimens.\r\nThese can be identified by trial plot types of:\r\n18Litre KEg,\r\n700ml\r\nand 40l bucket\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/504",
+          "labels": [
+            "Provenance"
+          ]
+        },
+        {
+          "summary": "Datagrid-like data entry",
+          "key": "JIT-496",
+          "status": "To Do",
+          "description": "There are a few use cases emerging where someone has to routinely add a handful of entities to the DB that relate to one another. Doing this manually through the current website is slow and error prone.\r\n\r\nIt would be useful to have a datagrid-like UI element that can be set up for data entry.\r\nI.e. something that we can code to take a set number of named  (and typed) input fields that can then be inserted into the DB via the ORM or as as a single transaction, this would allow for some level of functionality as described in  #476",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/496",
+          "labels": [
+            "Datagrid",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Cannonical 'terminate' option/button",
+          "key": "JIT-495",
+          "status": "To Do",
+          "description": "We need to establish a canonical 'terminate' option for all entities which users can interact with.\r\n\r\nCurrently they have options to delete entities including specimens/samples/locations.\r\nDeleting is OK if they create an entity that was a mistake, but not if the entity was real bu has been thrown out/died/etc.\r\nAs time goes on Kea will become full of entities that where real but have now been  'terminated'.\r\nIt's critical that these entities remain in the DB for the sake of auditing and if they are referenced by other entities (e.g. parent child relationships). \r\n\r\nTo ensure that they don't get deleted and don't clutter up what the user sees we need to have a recycle bin type approach that will flag an entity as 'terminated' and hide it from UI elements (at least by default).",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/495",
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Data Grid Export Format",
+          "key": "JIT-493",
+          "status": "To Do",
+          "description": "Is there any good reason why there is a blank second row in these by default?\r\n\r\n\r\nPopulation   Altnames | Sample Container Localid | Sample Container Typename | Sample Type | Plate Position Location | Entrydate | Sampledate | Sample Container Location\r\n-- | -- | -- | -- | -- | -- | -- | --\r\n  |   |   |   |   |   |   |  \r\nrML_022 | BBR9382 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9423 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9426 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9433 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9437 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9451 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9460 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9476 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9481 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\nrML_022 | BBR9487 | Small Bag | Leaf |   | 2017/06/04 |   |  \r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/493",
+          "labels": [
+            "Datagrid",
+            "UI Issue",
+            "question"
+          ]
+        },
+        {
+          "summary": "Correct Dewar Name",
+          "key": "JIT-490",
+          "status": "To Do",
+          "description": "Correct the dewar name before inserting related locations into Prod (test will need to be updated).\r\n\r\nThe dewer's should also have a parent location of a pfr site or lab",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/490",
+          "labels": [
+            "Location",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Automatically create location names based on coordinates",
+          "key": "JIT-480",
+          "status": "To Do",
+          "description": "Many location types are best referred to by a combination of their coordinates (atleast one unique coordinate).\r\nThere would ideally be a way of automatically filling in the name field with a template that uses coordinate fields  ",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/480",
+          "labels": [
+            "Location",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Fill out field with logged in user",
+          "key": "JIT-479",
+          "status": "To Do",
+          "description": "Ideally many fields would be filled out automatically based on the currently logged in user:\r\n- propagated by\r\n- terminated by\r\n\r\nThis would involve connecting usernames to multiple contact/people tables.\r\nIt should leave field empty if it can't make a match (i.e. not throw an error).",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/479",
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Add \"todays- date\" option and or calender to GUI",
+          "key": "JIT-478",
+          "status": "To Do",
+          "description": "Date fields currently need to be manually typed.\r\nThere should be a \"todays date\" option and/or a calender for selecting other dates.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/478",
+          "labels": [
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Template fields when using a Foreign Key",
+          "key": "JIT-476",
+          "status": "To Do",
+          "description": "### issue\r\n\r\nIn some contexts when a new entity is created, some of data is clearly inhered from an existing entity of the same type.\r\n\r\nThis data currently needs to be filled in by the user manually which is error prone and slow.\r\n\r\nWhile this inherited information is implicit in the DB it is not displayed explicitly to the user an in special cases there may be real reason why the data is not inherited.\r\n\r\n### example\r\n\r\nAn example of this is in the potato provenance when creating a new potato plant that is a child of a preexisting parent potato plant. \r\nIn this case fields like \"variety\" should always be inherited.\r\n\r\ntechnically this is implied by the parent-child relationship in the DB but this is not clear to the user and having the field automatically filled in is a good sanity check that the user has selected the correct parent plant.\r\n\r\nA second example in potato is when a potato comes from a potato sac. The company/purported variety should be inherited from the sac\r\n\r\n### feature\r\n\r\nIn a provenance models when defining foreign key (maybe via a TemplateForeignKey class) you can specify inherited/template fields as key-value pairs.\r\nThe data from those fields are then automatically filled out in the gui (but can be manually changed).\r\n\r\nThis may be simpler to implement only for recursive foreign keys.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/476",
+          "labels": [
+            "Provenance",
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Kiwifruit eBrida Initialisation Failure",
+          "key": "JIT-475",
+          "status": "To Do",
+          "description": "Trying to init with this record:\r\n\r\n| Pedigree Item | Plot | LotId  | Group | Mother  | Father  | Barcode     | BreederName  | Synonyms                               | From Ped. Item | Start Date | Plot Location |\r\n|---------------|------|--------|-------|---------|---------|-------------|--------------|----------------------------------------|----------------|------------|---------------|\r\n| Hort51-1785   | 146  | 724217 |       | Jinfeng | CK40_02 | TPCB21|0146 | Russell Lowe | T96.51-07-01f; 51-1785; Yellow 46; Y46 | K95.0001       | 01/01/1990 | T02.21-17-14a |\r\n\r\nCauses epic fail (see below):\r\n\r\n>Key (\"AltName\")=(TPCB21|0146) already exists.\r\n\r\nIs this  due to this genotype being assigned to Pop AltName 'Actinidia parents'?\r\n\r\n![image](https://user-images.githubusercontent.com/268441/29258665-b0613350-810f-11e7-82d9-7fe5def07093.png)\r\n\r\nThis may have been issue breaking collection init last spring..this is a major issue we need to resolve\r\n\r\n```\r\nTraceback (most recent call last):\r\n  File \"/usr/local/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\r\n    R = retval = fun(*args, **kwargs)\r\n  File \"/usr/local/lib/python2.7/site-packages/celery/app/trace.py\", line 438, in __protected_call__\r\n    return self.run(*args, **kwargs)\r\n  File \"/app/kea/celery/tasks/logging.py\", line 52, in run_decorator\r\n    func_output = self.wrapped_run(*args, **kwargs)\r\n  File \"/app/kea/ebrida/tasks.py\", line 58, in initialise_ebrida_samples\r\n    stdout=out)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/core/management/__init__.py\", line 120, in call_command\r\n    return command.execute(*args, **defaults)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/core/management/base.py\", line 445, in execute\r\n    output = self.handle(*args, **options)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/core/management/base.py\", line 623, in handle\r\n    label_output = self.handle_label(label, **options)\r\n  File \"/app/kea/ebrida/management/commands/ebrida_import.py\", line 309, in handle_label\r\n    self.create_samples(sheet_data)\r\n  File \"/app/kea/ebrida/management/commands/ebrida_import.py\", line 505, in create_samples\r\n    plant, genotype, population = self.create_pedigree_data(data)\r\n  File \"/app/kea/ebrida/management/commands/ebrida_import.py\", line 646, in create_pedigree_data\r\n    plant = self.get_or_create_plant(data, genotype, population)\r\n  File \"/app/kea/ebrida/management/commands/ebrida_import.py\", line 1090, in get_or_create_plant\r\n    AltNameType=self.barcode_altname_type)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/manager.py\", line 127, in manager_method\r\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/query.py\", line 348, in create\r\n    obj.save(force_insert=True, using=self.db)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/base.py\", line 734, in save\r\n    force_update=force_update, update_fields=update_fields)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/base.py\", line 762, in save_base\r\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/base.py\", line 846, in _save_table\r\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/base.py\", line 885, in _do_insert\r\n    using=using, raw=raw)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/manager.py\", line 127, in manager_method\r\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/query.py\", line 920, in _insert\r\n    return query.get_compiler(using=using).execute_sql(return_id)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py\", line 974, in execute_sql\r\n    cursor.execute(sql, params)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py\", line 64, in execute\r\n    return self.cursor.execute(sql, params)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/utils.py\", line 98, in __exit__\r\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\r\n  File \"/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py\", line 64, in execute\r\n    return self.cursor.execute(sql, params)\r\n  File \"/app/kea/core/db/backends/postgresql_psycopg2/base.py\", line 32, in execute\r\n    return self.cursor.execute(operation, params)\r\nIntegrityError: duplicate key value violates unique constraint \"plants_plantaltname_AltName_key\"\r\nDETAIL:  Key (\"AltName\")=(TPCB21|0146) already exists.\r\n``",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/475",
+          "labels": [
+            "Sample Init",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Plate records for collection need Some location Context Not Just KEA info",
+          "key": "JIT-474",
+          "status": "To Do",
+          "description": "The plate records currently generated by Kea using eBrida initialisation dont contain **any** eBrida contextual information  to aid collectors\r\nFor collection, an orchard location is needed. For usage the KEA sample ID is needed.\r\nIn this case the Kea PlantID is not useful \r\neg \r\n![image](https://user-images.githubusercontent.com/268441/29258075-d6bcf2e6-810a-11e7-899a-9e1c4dae09c8.png)\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/474",
+          "labels": [
+            "Requirement",
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Contextual Help on eBrida  Initialisation",
+          "key": "JIT-473",
+          "status": "To Do",
+          "description": "Please add a  link to an example or template or specification for the required spreadsheet format\r\n\r\n![image](https://user-images.githubusercontent.com/268441/29257748-962197b6-8108-11e7-98f9-2271c2640d94.png)\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/473",
+          "labels": [
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Kea servers to run on TLS",
+          "key": "JIT-459",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "We need to ensure that the Kea servers are all running on https.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/459",
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Merging/pooling samples and sample extracts",
+          "key": "JIT-439",
+          "status": "To Do",
+          "description": "It's become apparent that some samples (and in future sample extracts) will need to be merged/pooled into new samples (e.g. juice and wine). \r\n\r\nThis is possibly via a \"merge samples\" process:\r\n* takes a number of samples to be merged (one per row) \r\n* user inputs into each row the pooled-sample that each sample is merged into\r\n  * could be done by a unique name/number that is only used for that process and thrown away when the new sample is created\r\n  * could be done with a compulsory-unique alternate-id\r\n* process identifies unique names from the pooled-sample names column then for each new pooled-sample:\r\n  * create a new sample in the sample table\r\n  * attach pooled-sample to it's parent samples via a recursive many-to-many\r\n\r\n\r\nExample data sheet from users perspective:\r\n\r\n| sample-name | volume | volume unit | pooled-sample-name |\r\n| ------------- | -------- | ----------- | ---------------------- |\r\n| sample 1        | 20          | ml                |  mix 1                            |\r\n| sample 2        | 20          | ml                |  mix 1                            |\r\n| sample 3        | 20          | ml                |  mix 1                            |\r\n| sample 4        | 20          | ml                |  mix 2                            |\r\n| sample 5        | 20          | ml                |  mix 2                            |\r\n| sample 6        | 20          | ml                |  mix 2                            |\r\n| sample 7        | 20          | ml                |  mix 2                            |\r\n\r\nthis would result in two new samples in the sample table and 7 new connections in the many-to-many table (which the user doesn't need to see).\r\n\r\nPros:\r\n* Works for any sample type\r\n* Can create mixtures of mixtures (I'm sorry)\r\n* Uses existing UI elements = less friction for users\r\n* Users doesn't need to see/understand the many-to-many table\r\n* Similar implementation for samples and sample-extracts\r\n\r\nCons:\r\n* yet more recursion to deal with\r\n* a unique name/number is required for the pooled-sample *before* the sample is created but this can be done with a temporary name/number that is thrown away afterwards or stored as an alternate id",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/439",
+          "labels": [
+            "Process Handling",
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Filtering on Provenance column in Sample search no-go",
+          "key": "JIT-437",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The filtering for the specimen column in the sample search datagrid doesn't work.\r\nAnd I am having problems figuring out how to make it work.\r\n\r\n\r\n\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/437",
+          "labels": [
+            "Datagrid",
+            "Provenance",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Nested containers and locations",
+          "key": "JIT-435",
+          "status": "To Do",
+          "description": "Currently Kea has several different ways of answering \"where is this thing located\".\r\nFor Specimens this is just a foreign key to the locations table.\r\nLocations themselves can be nested.\r\nSamples and sample extracts have a container and the container itself has location (which may be nested).\r\n\r\nThis is working for the most part but there are a couple of limitations:\r\n * Containers are often nested e.g. a bar-coded tube inside a  bar-coded box at a location.\r\n * Specimens (plants) can often have a container instead of just a location e.g. a plant in a numbered pot that is moved between greenhouses or a plantlet in an agar plate in a fridge in a lab\r\n\r\nI think there is a way to represent this relationships without too much change to the current system:\r\n\r\nWe could add new \"pseudo\" locations to the locations table that point at a container in the container table. This is a (tree-like) recursive relationship between containers a locations. A container must have a location which could be a 'real' location or another container-location.\r\nThis would effectively be treating containers as a type of location that can be moved (taking its contents with it).\r\n\r\nPros:\r\n * More flexible model of the (fundamentally nested) nature of containers/locations\r\n * From the users point of view, there is a single (compulsory) option that states where a 'thing' is located\r\n * Existing Specimen's locations are unaffected as there is still a foreign key to location table\r\n * New specimens can have a container via the location table\r\n * Samples and Sample-extracts can still be forced to have a container (foreign key to container table) and are unaffected \r\n\r\nCons:\r\n * Potential for deeply nested structures\r\n   - probably no more than three levels deep in practice\r\n   - can be presented to users like a breadcrumb trail?\r\n * Risk of infinite recursion (a container inside itself)\r\n   - disallow it in the code?\r\n\r\nPlease criticise ",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/435",
+          "labels": [
+            "Location",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Location type for cryopreservation",
+          "key": "JIT-432",
+          "status": "To Do",
+          "description": "As part of the potato project, they are looking to use cryopreservation.\r\n\r\nRanjiths description:\r\n\r\n> I have attached the sheet we have developed so far. We are not taking any risk of loss. So, when we receive a potato variety in a tissue culture tub or as microtubers from Lincoln, we first multiply into 3 -4 tubs to get about 30-40  plantlets. For cryopreservation, we use 120 buds (both shoot tips and developed axillary buds). They go into: 4 cryo tubes each having 25 buds and another fifth with 20 buds. So we have 5 tubes in liquid nitrogen. One with 20 buds comes out after a week or so and get tested for viability and if we have >40  % viability, that variety is in permanent storage in 4 tubes.\r\n In the Dewar we have chambers A, B, C, D and within the chambers we have towers A-1, A2 … D1, D2 etc. Each tower has 12 positions which can take one cryo box each. Cryo boxes have their barcodes (box bar code  in sheet), can take 48 cryo tubes with barcode (tube barcode in sheet). For each cultivar we allocate two towers taking two tubes each. We have now placed 2 tubes per variety of 18 varieties in their final resting place. The other two tubes will be placed in another tower from their temporary storage position and the sheet will be updated. We also write down the position of each tube within the box.\r\nSo, for Kea, we can only identify the tube (not the individual 25 shoot tips in it) and link it to the variety. A variety will have four tubes in four different positions, using two boxes that are in two different towers.\r\n\r\nIn this case the material being stored is a viable plant (a specimen) so I think this should be modeled in the locations table (could also contain samples/sample-extracts). Obviously we cant track the individual plantlets in each tube but each tube could be treated as a single specimen (or other entity). ",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/432",
+          "labels": [
+            "Location"
+          ]
+        },
+        {
+          "summary": "sample list of selected samples in proc-run creation needs more info",
+          "key": "JIT-420",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "To be able to check that the samples chosen in the process-run creation form are correct we need to display more data about the samples.",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/420",
+          "labels": [
+            "Process Handling",
+            "Provenance",
+            "UI Issue"
+          ]
+        },
+        {
+          "summary": "Apply LotIDs to eBrida uploads that were missing them",
+          "key": "JIT-407",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Between the time that I did the dump to find the plants etc for applying the LotIDs and the time that I applied them there were some eBrida uploads that did not have LotIDs. From what Mike McVeigh said it sounded like approx 10,000\r\nSo at some time in the near future I will need to apply LotIDs to those plants.\r\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/407",
+          "labels": [
+            "EBrida_interface"
+          ]
+        },
+        {
+          "summary": "Skeleton spreadsheets and Excel dumps from admin interface columns not the same order",
+          "key": "JIT-351",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The files downloaded from the datagrids in the provenance admin interface for each table is not matching the column order for the skeleton spreadsheets for uploading data.\n\nThis is a major problem for data curation.\nI realise that I may have to fix this myself William but I may need some pointers on where to start.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/351",
+          "labels": [
+            "Provenance",
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Documentaiton for Provenance Entities ",
+          "key": "JIT-348",
+          "status": "To Do",
+          "description": "We need to start documenting the various entities in each provenance. \nThis has been a bit of a pain point when trying to get a provenance (grape and wine) to work for two or more use cases.\nConcepts like `trial_plot` and even `vineyard_block` have different meanings for different people and we need to ensure that different people use them in a similar (as similar as possible) manner. \nI know there is a technical writer working on docs but this is a problem for which we need end user input and this Fridays meeting \"Getting Wine and Grape data into Kea this season\" would be a good place to start.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/348",
+          "labels": [
+            "Provenance",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Django migration can't convert database column to nullable",
+          "key": "JIT-347",
+          "status": "To Do",
+          "description": "[Migration 0006](https://github.com/PlantandFoodResearch/Kea/blob/master/src/kea/provenance/grape_and_wine/migrations/0006_auto_20160817_1708.py) in the grape and wine provenance alters the attribute \"trial_plot\" (a foreign key) to nullable but running the migration does not alter the database column to nullable. Is this a known issue?\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/347",
+          "labels": [
+            "Provenance",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Kiwifruit provenance",
+          "key": "JIT-346",
+          "status": "To Do",
+          "description": "Create a provenance for Kiwifruit microbiome work.\nWorking with Sarah Thompson.\n\nStarted schema design in dia on branch [f/kiwifruit_microbiome_provenance](https://github.com/PlantandFoodResearch/Kea/tree/f/kiwifruit_microbiome_provenance)\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/346",
+          "labels": [
+            "Provenance",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Save state of datagrids for each user and each datagrid",
+          "key": "JIT-339",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "A user has suggested that they want datagrids to remember what ordering anfd page sizes etc they had set up for each datagrid.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/339",
+          "labels": [
+            "Datagrid",
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Django not altering field from not-null to nullable correctly",
+          "key": "JIT-333",
+          "status": "To Do",
+          "description": "Field `trial_plot_id` of Table `grape_and_wine_vine` is notnull in the DB despite being set to `null=True` in `grape_and_wine/models.py`. \nThis does not seem to be picked up by `django makemigrations` and was not corrected by explicitly  adding a `migrations.AlterField` to grape and wine migration `0006_auto_20160817.py` (see PR #332)\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/333",
+          "labels": [
+            "Provenance",
+            "bug"
+          ]
+        },
+        {
+          "summary": "500 server error when deleting stuff in the admin page",
+          "key": "JIT-329",
+          "status": "To Do",
+          "description": "I just tried to delete a mistakenly created genotype via the admin page. After it asked me if I was sure, it threw a 500 server error.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/329",
+          "labels": [
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Kiwifuit plate data needs cleaning up",
+          "key": "JIT-313",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Due to the EBrida batch creation bug where every sample was put into it's own plate, there are now hundreds of plates with only one sample in them.\n\nI'm not sure whether those samples a re still extant or they were just replaced after the bug was fixed.\nEither way we do need to tidy it all up.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/313",
+          "labels": [
+            "EBrida_interface",
+            "question"
+          ]
+        },
+        {
+          "summary": "Add KnownName to table pndata_person",
+          "key": "JIT-297",
+          "status": "To Do",
+          "description": "Needed as a user readable foreign key in provenance tables.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/297",
+          "labels": []
+        },
+        {
+          "summary": "Examine and address exceptions from email logs",
+          "key": "JIT-293",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "We are getting exceptions being produced and sent from Kea via email every day.\nWe need to have a good look at these and work through fixing them so that Kea deals with them more gracefully or fix any bugs.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/293",
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "summary": "DNA Alternative Provenance Requirements",
+          "key": "JIT-287",
+          "status": "To Do",
+          "description": "# Draft Notes on an Alternative Provenance for Kiwifruit DNA Samples\n## GOAL\n\n> to be able to assign a unique ID and track usage of **historical** DNA (or RNA) samples that have not been collected though a KEA best practice process\n### What we want to remember\n- old location (lab, location)\n- person providing\n- local identifier\n- putative eBrida PI the sample is _believed_ to have come from\n- other metadata about sample\n  - extraction method\n  - concentration or other QC\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/287",
+          "labels": [
+            "Provenance",
+            "Requirement",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Sample Layout Excel Sheet",
+          "key": "JIT-252",
+          "status": "To Do",
+          "description": "Priority; very high\n\nThe researchers walk with the layout sheet in to the field. However, the sheet does not contain any information about the plant location (particularly from ebrida) which makes browsing through the field very difficult.  It also constitutes a major error source.\n\nAlso please consider the ability to let the researcher order the list by location. \n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/252",
+          "labels": [
+            "Process Handling",
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Sample init: who did it?",
+          "key": "JIT-251",
+          "status": "To Do",
+          "description": "Priority: medium\n\nResearchers would like to see who initiated samples and have it reported when browsing samples. Could be an additional field when init samples.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/251",
+          "labels": [
+            "Process Handling",
+            "Sample Init",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Browse Plants no ebrida barcode",
+          "key": "JIT-249",
+          "status": "To Do",
+          "description": "Priority: medium\n\nThis report needs also the unique plant ID in form of the barcode. Researchers have problems with labels that have a shortened pedigree item ID which might make a sample unrecognisable.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/249",
+          "labels": [
+            "EBrida_interface",
+            "Process Handling",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Onclicks in tables",
+          "key": "JIT-245",
+          "status": "To Do",
+          "description": "Priority: High\n\nTo give an example: When browsing populations it would be great if you could click on a population name. The onclick would open a window with detail information about that population.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/245",
+          "labels": [
+            "Datagrid",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Multi column unique constraints for prov tables",
+          "key": "JIT-232",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "It has become apparent that the users need to be able to ensure that entities must be able to have uniqueness tests that are applicable at the time of the Excel upload.\nWe have a table called trial_plot whose primary identifier is a localid so the uploaded spreadsheet can't contain the localid that will uniquely identify the row.\n\nHowever the user has uploaded the same spreadsheet twice and ended up with two sets of identical trial_plots. Although the identifier can still stay as the localid we can, for instance, make a set of columns define the row.\n\nI remember that someone mentioned that Django can do multi-column unique constraints in some version or other. So am hoping that we can apply this somehow.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/232",
+          "labels": [
+            "Provenance",
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Batch upload file needs to be able to internally link to entities that don't yet have their LocalID",
+          "key": "JIT-214",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When a batch upload file is referencing a row in another tab that is for an entity that is referenced via a localid, then that the file can't reference it because the the foreign table entity does not yet have the LocalID assigned yet.\n\nI am thinking that perhaps some sort of standard external reference syntax may be required.\ne.g.some thing like  @TabName:rownum\nWhich would look like @Cross:23\n\nDon't care particularly about the exact syntax but we need something that works.\nI believe that I did discuss this with Darryl at some point but I don't think that he implemented anything.\n\nI imagine that this is not a trivial exercise but it will be required to get the last of the functionality going.\n\nCould you please give me an estimate before you start if it looks too big.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/214",
+          "labels": [
+            "Provenance",
+            "UI Issue",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "E-brida information on harvest sheets",
+          "key": "JIT-207",
+          "status": "To Do",
+          "description": "Sample harvests will be made a lot simpler if the Kea generated harvest sheets have the information that is on the actual trees/trays being harvested on them, instead of the kea codes, which are generally meaningless to the person harvesting.\n\nSo ideally platesheets for harvests created with the Initialise from E-brida function should have the tray name as well as the Kea ID, and then in each well should have the barcode or tree location. Is this doable? It would eliminate the need for a lot of cross-checking and the possiblity of human error. Chur'.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/207",
+          "labels": [
+            "EBrida_interface",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Set up Travis CI for Kea",
+          "key": "JIT-206",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Travis has recently been made available for us at PFR and it has been suggested that we can use it for Kea.\n\nSo can we please put together a plan and and estimate for what we want to do and how to do it.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/206",
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "summary": "Follow a population/samplebatch/tree/something...",
+          "key": "JIT-194",
+          "status": "To Do",
+          "description": "Copy/paste from my email to Zane:\n\nI was wondering it would be feasible to add support to Kea for a following/notification system, where a Kea user can choose to \"follow\" a sample batch (or population, or set of plates, or something...), and then get an email update when work is done on them.\n\nThis would be useful for example in Kiwifruit sex testing, where if we upload some sex testing results to Kea, a Kea user in Te Puke will receive a notification telling them their results are ready.\n\nIt may also be useful for a scientist who is working with a particular population to receive a notification when another scientist, working independently, screens their population with some marker - which they might otherwise never find out about.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/194",
+          "labels": [
+            "Process Handling",
+            "enhancement",
+            "question"
+          ]
+        },
+        {
+          "summary": "make skeleton spreadsheets for provenance uploads use dropdowns",
+          "key": "JIT-193",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "Where appropriate dropdowns would make things easier to enter in spreadsheets\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/193",
+          "labels": [
+            "Provenance",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Spreadsheets with empty worksheets give index out of range",
+          "key": "JIT-122",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When the user uploads an EBrida spreadsheet that has non-compliant worksheets i.e. empty ones that Excell adds by default an exception is generated \"IndexError: list index out of range\"\n\nNon-egg entries in the call stack:\n\n```\nFile \"/home/keaapp/.virtualenvs/kea/src/kea/kea/ebrida/management/commands/ebrida_import.py\", line 271, in handle_label\n    sheet_data += self.parse_sheet(sheet)\n  File \"/home/keaapp/.virtualenvs/kea/src/kea/kea/ebrida/management/commands/ebrida_import.py\", line 314, in parse_sheet\n    for k, v in enumerate(sheet.row_values(0)):\n\n```\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/122",
+          "labels": [
+            "EBrida_interface",
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "Person name identification in process upload is space sensitive",
+          "key": "JIT-119",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "When a user uploads a spreadsheet in the process handling and they put in the name of a person in a column that takes a person, the mechanism that finds the person seems to be failing if the name of the person has been entered with a space prepended or appended.\n\nIt seems to be a continuing problem that when users enter the names of people in Kea they seem to want to either start with a space or end with one.\n\nWhen the code that then tries to identify the people  from that name it regards spaces. Some strip() calls in the right places would probably fix this.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/119",
+          "labels": [
+            "Process Handling",
+            "bug"
+          ]
+        },
+        {
+          "summary": "ability to change genotype alt names en mass",
+          "key": "JIT-100",
+          "status": "To Do",
+          "description": "Issue caused by eBrida population name being masked by user population alt name...\neBrida population auto number: K13.0183\neBrida population user number: K13.0393\neBrida genotype auto number: K13.0183.00494\n\nKea popn alt name: K13.0393\nKea genotype alt name: K13.0183.00494\n\nwe have changed eBrida genotype auto number to reflect user number \n\nNEW NAMES \n\neBrida population auto number: K13.0393\neBrida population user number: K13.0393\neBrida genotype auto number: K13.0393.00494\n\nThis has occurred in 90 genotypes. I will update them manually in Kea. it would be great if I could reupload the file that was used to initialise the sample with the corrected genotype alt names and overwrite the incorrect alt names in Kea. \nSimilar to the \"Old files\" option in the samples tab which would allow me to alter plant alt names but not genotype alt names...\n\nHave discussed with Zane\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/100",
+          "labels": [
+            "EBrida_interface",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "Provenance - create/download spreadsheet",
+          "key": "JIT-93",
+          "status": "To Do",
+          "description": "In 'execute process run' and 'plate view' a spreadsheet can be created and downloaded in two steps.\n\nNice to have: one step.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/93",
+          "labels": [
+            "Process Handling",
+            "enhancement"
+          ]
+        },
+        {
+          "summary": "duplicate altnames in upload batch just going to 500 error",
+          "key": "JIT-82",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "We need to ensure that the the reporting of duplicate altnames in batch uploads are reported in a useful way.\n\nRight now the user is just sent a 500 error.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/82",
+          "labels": [
+            "UI Issue",
+            "bug"
+          ]
+        },
+        {
+          "summary": "after deleting a plant (or anything) returning to the unfiltered list",
+          "key": "JIT-76",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "If the user deletes a sample or plant or whatever from the view data area the page that is returned to is the unfiltered datagrid for the entity.\n\nThis needs to be set to return back to the same page that the user was working in.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/76",
+          "labels": [
+            "Datagrid",
+            "UI Issue"
+          ]
+        },
+        {
+          "summary": "Please add: add genotype and add location to add plant form",
+          "key": "JIT-46",
+          "status": "To Do",
+          "reporter": "Zane Gilmore",
+          "description": "The modifications to the add plant form have left out the add plant and add location links.\n\nThese were Plus symbols next to the input and search widget links for those fields.\n",
+          "externalId": "https://api.github.com/repos/PlantandFoodResearch/Kea/issues/46",
+          "labels": [
+            "UI Issue"
+          ]
+        }
+      ]
+    }
+  ]
+}
