@@ -1,0 +1,258 @@
+{
+  "data": {
+    "repository": {
+      "name": "Kea",
+      "issues": {
+        "edges": [
+          {
+            "node": {
+              "id": "MDU6SXNzdWU1OTU0OTY3MjE=",
+              "number": 596,
+              "title": "SQL error on renaming LocalIDField",
+              "url": "https://github.com/PlantandFoodResearch/Kea/issues/596",
+              "body": "I am trying to change a provenance table set and have hit a problem with a particular change.\r\nWhen I try to rename a column of type LocalIDField, the Django migration crashes and burns.\r\n\r\nI will send a copy of a recent staging DB dump and the new models.py file.\r\nNot absolutely sure of whether this is a Py3 migration probelm but would appreciate help nonetheless.\r\n\r\n",
+              "state": "CLOSED",
+              "author": {
+                "login": "zanejg"
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Provenance"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Python3_upgrade"
+                    }
+                  }
+                ]
+              },
+              "comments": {
+                "edges": [
+                  {
+                    "node": {
+                      "author": {
+                        "login": "zanejg"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "On second thought I have created a branch called issue596\r\n\r\n\r\n",
+                      "createdAt": "2020-04-07T00:00:08Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "rodrim3n"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "I found the bug,\r\n\r\nWorking on it.",
+                      "createdAt": "2020-04-07T18:48:43Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "rodrim3n"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "Fix deployed to branch \"py3\"",
+                      "createdAt": "2020-04-14T19:32:41Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "zanejg"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "fixed",
+                      "createdAt": "2020-07-03T03:41:20Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "MDU6SXNzdWU2NzE3NzU3MjE=",
+              "number": 597,
+              "title": "relation entry in path array wrong by one",
+              "url": "https://github.com/PlantandFoodResearch/Kea/issues/597",
+              "body": "For each of the samples you have a \"path\" array.\r\nThe attribute \"relation\" is listed as the name of the table in the previous path entry and the first entry is empty.\r\n\r\nI don't know whether it is by design but if it is it is confusing. It needs to be the name of the current relation/table/model.\r\n\r\n",
+              "state": "OPEN",
+              "author": {
+                "login": "zanejg"
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "API"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Provenance"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "bug"
+                    }
+                  }
+                ]
+              },
+              "comments": {
+                "edges": [
+                  {
+                    "node": {
+                      "author": {
+                        "login": "wilbuick"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "It should be the name of the foreign key field that links to the previous object in the chain.",
+                      "createdAt": "2020-08-03T04:09:12Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "zanejg"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "Yeah.\r\nNot good. It should be the name of the actual current object.\r\nThe way it is is just confusing.\r\n\r\nBTW also getting the impression that providing the speciment to the endpoint would simplify things a whole lot and probably speed things up.\r\n",
+                      "createdAt": "2020-08-03T04:17:08Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "zanejg"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "I take it back. It is potentially useful to have the foreign-key name in that list.\r\nHowever it should not be called  \"relation\".\r\nIn the DB world relation is another name for a table/model.\r\nIt needs to be renamed \"foreign-key\" or similar.\r\n",
+                      "createdAt": "2020-08-03T21:32:19Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "wilbuick"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "Hi Zane,\r\n\r\nI just called but got your voicemail. Give me a ring sometime this afternoon and we can discuss in detail.",
+                      "createdAt": "2020-08-04T02:08:09Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "MDU6SXNzdWU2ODMyMDA3NDc=",
+              "number": 598,
+              "title": "view-schema incompatibility error on start up",
+              "url": "https://github.com/PlantandFoodResearch/Kea/issues/598",
+              "body": "I'mgetting this on start up:\r\n\r\n/```\r\nhome/zane/programming/virtenv/kea_py3/lib/python3.7/site-packages/django_filters/rest_framework/backends.py:128: UserWarning: <class 'kea.api.views.crop.CropViewSet'> is not compatible with schema generation\r\n  \"{} is not compatible with schema generation\".format(view.__class__)\r\n/home/zane/programming/virtenv/kea_py3/lib/python3.7/site-packages/django_filters/rest_framework/backends.py:128: UserWarning: <class 'kea.api.views.provenance.ProvenanceViewSet'> is not compatible with schema generation\r\n  \"{} is not compatible with schema generation\".format(view.__class__)\r\n```\r\n",
+              "state": "OPEN",
+              "author": {
+                "login": "zanejg"
+              },
+              "labels": {
+                "edges": []
+              },
+              "comments": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "MDU6SXNzdWU2ODMyMTE4MTY=",
+              "number": 599,
+              "title": "Provenance model lookup not working with LocalIDs",
+              "url": "https://github.com/PlantandFoodResearch/Kea/issues/599",
+              "body": "It appears that any call to the:\r\n/provenance​/{provenance_id}​/model​/{provenance_model_id}​/\r\nendpoint gives an the error:\r\nresolved field 'XXXXX' with 'exact' lookup to an unrecognized field type LocalIDField\r\n\r\nIt seems that there is nothing to handle look ups for LocaID field types.\r\n",
+              "state": "OPEN",
+              "author": {
+                "login": "zanejg"
+              },
+              "labels": {
+                "edges": []
+              },
+              "comments": {
+                "edges": [
+                  {
+                    "node": {
+                      "author": {
+                        "login": "wilbuick"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "Fixed here https://github.com/PlantandFoodResearch/Kea/tree/provenance_localid_filter",
+                      "createdAt": "2020-08-27T01:45:43Z"
+                    }
+                  },
+                  {
+                    "node": {
+                      "author": {
+                        "login": "wilbuick"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "https://github.com/PlantandFoodResearch/Kea/pull/600",
+                      "createdAt": "2020-08-27T02:10:02Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "MDU6SXNzdWU3MDE0NDY3NDA=",
+              "number": 601,
+              "title": "\"no unique constraint\" error for provenance migration",
+              "url": "https://github.com/PlantandFoodResearch/Kea/issues/601",
+              "body": "I'm getting:\r\n`django.db.utils.ProgrammingError: there is no unique constraint matching given keys for referenced table \"solanaceae_lnc_rna_plant\"`\r\n\r\nAfter adding a couple of tables to the solanaceae_lnc_rna provenance.\r\nI am also making one of them a new specimen-type.\r\nI will push the salient code shortly.\r\nAnd send an appropriate DB dump.\r\n",
+              "state": "CLOSED",
+              "author": {
+                "login": "zanejg"
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Provenance"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "bug"
+                    }
+                  }
+                ]
+              },
+              "comments": {
+                "edges": [
+                  {
+                    "node": {
+                      "author": {
+                        "login": "zanejg"
+                      },
+                      "authorAssociation": "CONTRIBUTOR",
+                      "body": "Thanks for your help diagnosing that William.\r\nWill close this now.\r\nNB It turned out that the DB was corrupted somehow and had no constraints.\r\nA fresh DB dump from live fixed it\r\n",
+                      "createdAt": "2020-09-17T04:39:17Z"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

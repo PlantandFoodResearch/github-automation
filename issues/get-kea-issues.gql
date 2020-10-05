@@ -1,0 +1,40 @@
+{ 
+  "query": "{
+  repository(owner:\"PlantandFoodResearch\", name:\"kea\") {
+    name,
+    issues(last:5) {
+       edges {
+        node {
+          id
+          number
+          title
+          url
+          body
+          state
+          author {
+            login
+          }
+          labels(first:5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+          comments(last:100) {
+            edges {
+              node {
+                author {
+                  login
+                }
+                authorAssociation
+                body
+                createdAt
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}"

@@ -17,7 +17,9 @@ const stateMap = {
 }
 
 const peopleMap = {
-  zanejg: 'Zane Gilmore'
+  zanejg: 'Zane Gilmore',
+  wilbuick: 'Will Buick',
+  rodrim3n: 'rodrim3n'
 }
 function convertToJira (json, key) {
   return json.map((item, index) => {
