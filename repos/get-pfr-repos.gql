@@ -1,0 +1,36 @@
+{ 
+  "query": "{
+  organization(login: \"PlantandFoodResearch\") {
+    repositories(first: 15, after: \"Y3Vyc29yOnYyOpHOD8ykQA==\" ) {
+      totalCount
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+      nodes {
+        id
+        name
+        url
+        shortDescriptionHTML
+        isPrivate
+        description
+        primaryLanguage { name }
+        diskUsage
+        hasIssuesEnabled
+        hasWikiEnabled      
+        collaborators(affiliation: ALL, first: 100) {
+          totalCount
+          edges {            
+            permission
+            node {
+              name
+              login
+              email
+            }
+          }
+        }
+      }
+     
+    }
+  }
+}"

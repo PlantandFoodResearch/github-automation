@@ -1,0 +1,372 @@
+name, private, url, diskUsage, hasIssuesEnabled, hasWikiEnabled, Admins
+RedOrDead, true, https://github.com/PlantandFoodResearch/RedOrDead, 50120, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+BACRB, true, https://github.com/PlantandFoodResearch/BACRB, 312, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+BioMarker, true, https://github.com/PlantandFoodResearch/BioMarker, 8022, true, true, mdavy86, kiwiroy, zanejg, avowkind, wilbuick, eburgueno, hrpmrl
+Kea, true, https://github.com/PlantandFoodResearch/Kea, 66923, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+AlliumMap, false, https://github.com/PlantandFoodResearch/AlliumMap, 110, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Infrastructure, true, https://github.com/PlantandFoodResearch/Infrastructure, 15251, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, tej4pnfr
+LysimeterPilot, true, https://github.com/PlantandFoodResearch/LysimeterPilot, 1688, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+irods, false, https://github.com/PlantandFoodResearch/irods, 24576, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+openlava, false, https://github.com/PlantandFoodResearch/openlava, 9503, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+analysis-workflows, true, https://github.com/PlantandFoodResearch/analysis-workflows, 369437, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+LoggerPrograms, false, https://github.com/PlantandFoodResearch/LoggerPrograms, 478, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+jekyll-bootstrap, false, https://github.com/PlantandFoodResearch/jekyll-bootstrap, 1846, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+data-science-toolbox, false, https://github.com/PlantandFoodResearch/data-science-toolbox, 241, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+shiny-server, false, https://github.com/PlantandFoodResearch/shiny-server, 12266, false, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, PeterAlspach, vnniyB, eburgueno, hrpmrl, mwohlers, hymmikong, timothymillar, guypfr
+lysimeterconduit, true, https://github.com/PlantandFoodResearch/lysimeterconduit, 423, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+gbs_makefile_dev_afm, false, https://github.com/PlantandFoodResearch/gbs_makefile_dev_afm, 80716, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+WheatGXE, true, https://github.com/PlantandFoodResearch/WheatGXE, 142617, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, PeterAlspach, HamishBrownPFR, vnniyB, eburgueno, ed2014, hrpmrl, mwohlers, hymmikong, timothymillar, guypfr
+Lucerne-and-Pasture, true, https://github.com/PlantandFoodResearch/Lucerne-and-Pasture, 125127, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+PFRdataCraft, true, https://github.com/PlantandFoodResearch/PFRdataCraft, 53444, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, PeterAlspach, vnniyB, eburgueno, hrpmrl, mwohlers, hymmikong, timothymillar, guypfr
+rstudio, false, https://github.com/PlantandFoodResearch/rstudio, 48972, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+powerPlant, true, https://github.com/PlantandFoodResearch/powerPlant, 105836, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+LoggerData, true, https://github.com/PlantandFoodResearch/LoggerData, 992, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+Scriptomics, true, https://github.com/PlantandFoodResearch/Scriptomics, 30403, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+Bioview, true, https://github.com/PlantandFoodResearch/Bioview, 9242, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, rosscrowhurst, hrpmrl
+FCDB_auto_data, true, https://github.com/PlantandFoodResearch/FCDB_auto_data, 196, true, true
+NGSUserGroup, true, https://github.com/PlantandFoodResearch/NGSUserGroup, 49251, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, PeterAlspach, vnniyB, eburgueno, hrpmrl, mwohlers, hymmikong, timothymillar, guypfr
+sandpit, false, https://github.com/PlantandFoodResearch/sandpit, 1037, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+RainShelterBarley, true, https://github.com/PlantandFoodResearch/RainShelterBarley, 265815, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+dplyr, false, https://github.com/PlantandFoodResearch/dplyr, 8188, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Moa, false, https://github.com/PlantandFoodResearch/Moa, 12433, false, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+grape, true, https://github.com/PlantandFoodResearch/grape, 12662, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+BetterAnalysisFaster, true, https://github.com/PlantandFoodResearch/BetterAnalysisFaster, 23604, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Biometrics, true, https://github.com/PlantandFoodResearch/Biometrics, 2575590, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+prose, false, https://github.com/PlantandFoodResearch/prose, 27310, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PhenotypicDataCheckingFS1951, true, https://github.com/PlantandFoodResearch/PhenotypicDataCheckingFS1951, 444, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+CollaborativeDataManagement, true, https://github.com/PlantandFoodResearch/CollaborativeDataManagement, 169723, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ChemDB, true, https://github.com/PlantandFoodResearch/ChemDB, 5730, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Kaka, true, https://github.com/PlantandFoodResearch/Kaka, 104, true, true
+NetWorkPower, true, https://github.com/PlantandFoodResearch/NetWorkPower, 736, true, true
+StonySoilLysimeters, false, https://github.com/PlantandFoodResearch/StonySoilLysimeters, 79701, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+cleanTheKiwi, true, https://github.com/PlantandFoodResearch/cleanTheKiwi, 102, true, true
+PFRBreedR, true, https://github.com/PlantandFoodResearch/PFRBreedR, 45816, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+PAAUtils, true, https://github.com/PlantandFoodResearch/PAAUtils, 86, true, true
+dotfiles, true, https://github.com/PlantandFoodResearch/dotfiles, 240, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_input, true, https://github.com/PlantandFoodResearch/bioinf_input, 11788, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Deroles
+bioinf_output, true, https://github.com/PlantandFoodResearch/bioinf_output, 1418, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_DB_migration, true, https://github.com/PlantandFoodResearch/FCDB_DB_migration, 136, true, true
+EnsemblExtensions, true, https://github.com/PlantandFoodResearch/EnsemblExtensions, 13482, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ApsimX, false, https://github.com/PlantandFoodResearch/ApsimX, 791393, false, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+MGM-file-generation, true, https://github.com/PlantandFoodResearch/MGM-file-generation, 97736, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+Utility-Functions, true, https://github.com/PlantandFoodResearch/Utility-Functions, 27, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl
+BestPractices, true, https://github.com/PlantandFoodResearch/BestPractices, 9099, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl, charlesdavid
+wise2, false, https://github.com/PlantandFoodResearch/wise2, 3436, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+StatGenPyDocker, true, https://github.com/PlantandFoodResearch/StatGenPyDocker, 172, true, true
+django-import-export, false, https://github.com/PlantandFoodResearch/django-import-export, 1424, true, true, mdavy86, kiwiroy, zanejg, avowkind, wilbuick, eburgueno, hrpmrl, mwohlers, hymmikong, timothymillar, cflbxd
+FCDB_calculation_engines, true, https://github.com/PlantandFoodResearch/FCDB_calculation_engines, 264, true, true
+FreshFacts, true, https://github.com/PlantandFoodResearch/FreshFacts, 27629, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+webapollo-docker, false, https://github.com/PlantandFoodResearch/webapollo-docker, 296, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FarmDataPortal, true, https://github.com/PlantandFoodResearch/FarmDataPortal, 20205, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+efp-browser, true, https://github.com/PlantandFoodResearch/efp-browser, 8696, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+NCNZInterchange, false, https://github.com/PlantandFoodResearch/NCNZInterchange, 1460, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_calculation_graphing, true, https://github.com/PlantandFoodResearch/FCDB_calculation_graphing, 412, true, true
+CAM, true, https://github.com/PlantandFoodResearch/CAM, 19988, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FragmentAnalysis, true, https://github.com/PlantandFoodResearch/FragmentAnalysis, 525, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+kakapo, true, https://github.com/PlantandFoodResearch/kakapo, 20765, false, false, mdavy86, kiwiroy, zanejg, avowkind, vnniyB, eburgueno, hrpmrl, jsabad
+datasharing, false, https://github.com/PlantandFoodResearch/datasharing, 72, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+genometools, false, https://github.com/PlantandFoodResearch/genometools, 45646, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Kiwifruit-Imaging, true, https://github.com/PlantandFoodResearch/Kiwifruit-Imaging, 829, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Overseer-testing, true, https://github.com/PlantandFoodResearch/Overseer-testing, 214015, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FruitGraderTePuke, true, https://github.com/PlantandFoodResearch/FruitGraderTePuke, 45114, false, false, mdavy86, kiwiroy, zanejg, avowkind, vnniyB, eburgueno, hrpmrl, hymmikong, cflbxd, jsabad, HRTBCP
+deploy-tools, true, https://github.com/PlantandFoodResearch/deploy-tools, 54, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Biometrics_network, true, https://github.com/PlantandFoodResearch/Biometrics_network, 445, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, mwohlers
+RainShelterWheat, true, https://github.com/PlantandFoodResearch/RainShelterWheat, 8186, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Nelson_ui_library, true, https://github.com/PlantandFoodResearch/Nelson_ui_library, 135516, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, ashtondavi, CFNPMW
+CAMCake, true, https://github.com/PlantandFoodResearch/CAMCake, 47422, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+IrrigationAnimation, false, https://github.com/PlantandFoodResearch/IrrigationAnimation, 1461, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+aspire-asparagus, true, https://github.com/PlantandFoodResearch/aspire-asparagus, 33507, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+asparagus-app, true, https://github.com/PlantandFoodResearch/asparagus-app, 95, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+pcr_marker_design, false, https://github.com/PlantandFoodResearch/pcr_marker_design, 15640, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+PHYLO, false, https://github.com/PlantandFoodResearch/PHYLO, 81000, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+aspire-lite, false, https://github.com/PlantandFoodResearch/aspire-lite, 874, true, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+genome-server, true, https://github.com/PlantandFoodResearch/genome-server, 225, true, true
+KeaProcessDevelopment, true, https://github.com/PlantandFoodResearch/KeaProcessDevelopment, 31, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PyKaka, false, https://github.com/PlantandFoodResearch/PyKaka, 57, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+rkaka, false, https://github.com/PlantandFoodResearch/rkaka, 32, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MicrobialSystems, true, https://github.com/PlantandFoodResearch/MicrobialSystems, 218, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+diigo_yammer, true, https://github.com/PlantandFoodResearch/diigo_yammer, 2743, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PeaGS, true, https://github.com/PlantandFoodResearch/PeaGS, 1921, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+iplantAcquiR, true, https://github.com/PlantandFoodResearch/iplantAcquiR, 39, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+JKaka, false, https://github.com/PlantandFoodResearch/JKaka, 1, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+aits, true, https://github.com/PlantandFoodResearch/aits, 204, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, HRRMXJ
+pfrticles, true, https://github.com/PlantandFoodResearch/pfrticles, 21728, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+edamontology, false, https://github.com/PlantandFoodResearch/edamontology, 3313, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+BrassicaGenomics, true, https://github.com/PlantandFoodResearch/BrassicaGenomics, 3814, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl, charlesdavid
+PFRAutomatedWorkflows, false, https://github.com/PlantandFoodResearch/PFRAutomatedWorkflows, 11356, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, eburgueno, hrpmrl
+field-data-capture, true, https://github.com/PlantandFoodResearch/field-data-capture, 170572, false, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Actinidia_snpeff, true, https://github.com/PlantandFoodResearch/Actinidia_snpeff, 636, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Shellfish, true, https://github.com/PlantandFoodResearch/Shellfish, 370, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, ashtondavi
+SensoryDOE, true, https://github.com/PlantandFoodResearch/SensoryDOE, 16, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, mwohlers
+KayaPorterAnalysis, false, https://github.com/PlantandFoodResearch/KayaPorterAnalysis, 394, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+perlbrew-ext, true, https://github.com/PlantandFoodResearch/perlbrew-ext, 74, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+APSIMArbitrator, true, https://github.com/PlantandFoodResearch/APSIMArbitrator, 9108, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MultiPoreWater, false, https://github.com/PlantandFoodResearch/MultiPoreWater, 10389, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+TEFingerprint, false, https://github.com/PlantandFoodResearch/TEFingerprint, 2842, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+VariantAnalysis, false, https://github.com/PlantandFoodResearch/VariantAnalysis, 195, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Scion, true, https://github.com/PlantandFoodResearch/Scion, 693, true, true
+macOS, true, https://github.com/PlantandFoodResearch/macOS, 432, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+GitHub-Governance, true, https://github.com/PlantandFoodResearch/GitHub-Governance, 0, true, true
+blue_skies_trans_rna, true, https://github.com/PlantandFoodResearch/blue_skies_trans_rna, 156, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+government.github.com, false, https://github.com/PlantandFoodResearch/government.github.com, 20802, false, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+vg, false, https://github.com/PlantandFoodResearch/vg, 16545, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+modules, false, https://github.com/PlantandFoodResearch/modules, 3899, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+KiwifruitDataWarehouse, true, https://github.com/PlantandFoodResearch/KiwifruitDataWarehouse, 0, true, true
+potato, true, https://github.com/PlantandFoodResearch/potato, 81, true, true, mdavy86, kiwiroy, zanejg, avowkind, PeterAlspach, eburgueno, hrpmrl
+RainShelterFodderBeet, false, https://github.com/PlantandFoodResearch/RainShelterFodderBeet, 2133, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+clever_culling, true, https://github.com/PlantandFoodResearch/clever_culling, 1338394, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Actinidia_chinensis_Genome_Red5, true, https://github.com/PlantandFoodResearch/Actinidia_chinensis_Genome_Red5, 362698, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Targeting_speciality_lncRNA, true, https://github.com/PlantandFoodResearch/Targeting_speciality_lncRNA, 557, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+VineFacts, true, https://github.com/PlantandFoodResearch/VineFacts, 33293, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+GWAppleS, true, https://github.com/PlantandFoodResearch/GWAppleS, 7319, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+tec5tools, true, https://github.com/PlantandFoodResearch/tec5tools, 887, true, true
+NirFRuitDatabaseExporter, true, https://github.com/PlantandFoodResearch/NirFRuitDatabaseExporter, 471, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FishBreeding, true, https://github.com/PlantandFoodResearch/FishBreeding, 938295, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+fieldcrops, true, https://github.com/PlantandFoodResearch/fieldcrops, 245377, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons, rcichota, BrucePFR, linleyj, cfwaxh, frank0434
+mobileFieldPrinter, true, https://github.com/PlantandFoodResearch/mobileFieldPrinter, 40910, false, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+rootstock-processing, true, https://github.com/PlantandFoodResearch/rootstock-processing, 49, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+GradingDataExporter, true, https://github.com/PlantandFoodResearch/GradingDataExporter, 656, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+DeliveringPerfectFruitDatabaseTools, true, https://github.com/PlantandFoodResearch/DeliveringPerfectFruitDatabaseTools, 91672, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_ncbi_downloads, true, https://github.com/PlantandFoodResearch/bioinf_ncbi_downloads, 48, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Actinidia_chinensis_Male_Pan_Genome, true, https://github.com/PlantandFoodResearch/Actinidia_chinensis_Male_Pan_Genome, 52, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_redFlesh_developmentalSeries, true, https://github.com/PlantandFoodResearch/bioinf_redFlesh_developmentalSeries, 633, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Deroles
+bioinf_LBAM_genome, true, https://github.com/PlantandFoodResearch/bioinf_LBAM_genome, 7802, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+bioinf_TPP_Potato_transcriptome, true, https://github.com/PlantandFoodResearch/bioinf_TPP_Potato_transcriptome, 23651, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+bioinf_blackcurrant, true, https://github.com/PlantandFoodResearch/bioinf_blackcurrant, 10113, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+Actinidia_arguta_K2D4_RNAseq_analysis, true, https://github.com/PlantandFoodResearch/Actinidia_arguta_K2D4_RNAseq_analysis, 14, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Dietary-Plant-miRNAs-and-the-Human-Interactome, true, https://github.com/PlantandFoodResearch/bioinf_Dietary-Plant-miRNAs-and-the-Human-Interactome, 2986, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+bioinf_Plant-miRNAs-and-the-Human-Interactome_AWS_trial, true, https://github.com/PlantandFoodResearch/bioinf_Plant-miRNAs-and-the-Human-Interactome_AWS_trial, 23829, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+Actinidia_chinensis_Genome_Russell, true, https://github.com/PlantandFoodResearch/Actinidia_chinensis_Genome_Russell, 11005, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, rosscrowhurst, hrpmrl
+bioinf_Siberia_VC, true, https://github.com/PlantandFoodResearch/bioinf_Siberia_VC, 91167, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+AAiD, true, https://github.com/PlantandFoodResearch/AAiD, 12853, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, charlesdavid
+polyploid-basics, true, https://github.com/PlantandFoodResearch/polyploid-basics, 317, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+AmaizeN, true, https://github.com/PlantandFoodResearch/AmaizeN, 9085, true, true, mdavy86, kiwiroy, zanejg, avowkind, RobZys, eburgueno, hrpmrl
+LudlumLogger, true, https://github.com/PlantandFoodResearch/LudlumLogger, 200, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+DataScienceWorkshop, true, https://github.com/PlantandFoodResearch/DataScienceWorkshop, 48416, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+rx7Capture, true, https://github.com/PlantandFoodResearch/rx7Capture, 663, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Neonectria-ditissima-Transcriptome, true, https://github.com/PlantandFoodResearch/Neonectria-ditissima-Transcriptome, 2, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Malus-CAGRF12641-ReSeq, true, https://github.com/PlantandFoodResearch/Malus-CAGRF12641-ReSeq, 295, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Malus-Russian-apple, true, https://github.com/PlantandFoodResearch/Malus-Russian-apple, 35, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_sieversii, true, https://github.com/PlantandFoodResearch/bioinf_Malus_sieversii, 35, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_FoodCASE_compare, true, https://github.com/PlantandFoodResearch/FCDB_FoodCASE_compare, 18, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Actinidia_rtGBS, true, https://github.com/PlantandFoodResearch/bioinf_Actinidia_rtGBS, 19866, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_RoyalGala, true, https://github.com/PlantandFoodResearch/bioinf_Malus_RoyalGala, 3133, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+bioinf_manuka_genome, true, https://github.com/PlantandFoodResearch/bioinf_manuka_genome, 191567, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+kea_notebooks, true, https://github.com/PlantandFoodResearch/kea_notebooks, 97, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_TetraPloid_kiwifruit_CAGRF13148, true, https://github.com/PlantandFoodResearch/bioinf_TetraPloid_kiwifruit_CAGRF13148, 2246, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+haplo-assembly, true, https://github.com/PlantandFoodResearch/haplo-assembly, 4992, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+20-by-2020, false, https://github.com/PlantandFoodResearch/20-by-2020, 9861, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Potato_RNAseq_Exp10545, true, https://github.com/PlantandFoodResearch/bioinf_Potato_RNAseq_Exp10545, 1, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+bioinf_Pisum_sativum_transcriptome, true, https://github.com/PlantandFoodResearch/bioinf_Pisum_sativum_transcriptome, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_blueberry_MYB, true, https://github.com/PlantandFoodResearch/bioinf_blueberry_MYB, 1132, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+RNASeq_community, true, https://github.com/PlantandFoodResearch/RNASeq_community, 73396, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_kiwifruit_genomes_of_SRP073634, true, https://github.com/PlantandFoodResearch/bioinf_kiwifruit_genomes_of_SRP073634, 343, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_Prevar_CAGRF11874, true, https://github.com/PlantandFoodResearch/bioinf_Malus_Prevar_CAGRF11874, 79987, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Apple_WGS2_GBS_2017, true, https://github.com/PlantandFoodResearch/bioinf_Apple_WGS2_GBS_2017, 10, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_ReSeq, true, https://github.com/PlantandFoodResearch/bioinf_Malus_ReSeq, 215, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+bioinf_Team, true, https://github.com/PlantandFoodResearch/bioinf_Team, 105575, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Actinidia_chinensis_Carotenogenesis, true, https://github.com/PlantandFoodResearch/bioinf_Actinidia_chinensis_Carotenogenesis, 374, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+TaDFu, true, https://github.com/PlantandFoodResearch/TaDFu, 423774, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_Russell_HiC, true, https://github.com/PlantandFoodResearch/bioinf_Russell_HiC, 13, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+SDHap, true, https://github.com/PlantandFoodResearch/SDHap, 32, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Raspberry, true, https://github.com/PlantandFoodResearch/bioinf_Raspberry, 250, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, davidchagne
+FCDB_webaccess, true, https://github.com/PlantandFoodResearch/FCDB_webaccess, 4599, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Potato, true, https://github.com/PlantandFoodResearch/bioinf_Potato, 32258, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+FCDB_webaccess_juryrig, true, https://github.com/PlantandFoodResearch/FCDB_webaccess_juryrig, 1957, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Actinidia_metabarcoding, true, https://github.com/PlantandFoodResearch/bioinf_Actinidia_metabarcoding, 27, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Venturia_comparative_genomics, true, https://github.com/PlantandFoodResearch/bioinf_Venturia_comparative_genomics, 10073, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_marsdenWhatWasTheFirstSmell, true, https://github.com/PlantandFoodResearch/bioinf_marsdenWhatWasTheFirstSmell, 116, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+FodderBeatOats, false, https://github.com/PlantandFoodResearch/FodderBeatOats, 4142, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MultiCropRotation_APSIM_X, true, https://github.com/PlantandFoodResearch/MultiCropRotation_APSIM_X, 11233, true, true, mdavy86, kiwiroy, zanejg, avowkind, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl, rcichota, Meiyalaghan
+ShinyClimateChange, true, https://github.com/PlantandFoodResearch/ShinyClimateChange, 98926, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, ed2014, hrpmrl, hymmikong, linleyj
+bioinf_Vitis_CAGRF12872, true, https://github.com/PlantandFoodResearch/bioinf_Vitis_CAGRF12872, 205, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_scab_resistance, true, https://github.com/PlantandFoodResearch/bioinf_Malus_scab_resistance, 404, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Zhengzhou_Peach, true, https://github.com/PlantandFoodResearch/bioinf_Zhengzhou_Peach, 219, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_GBS_Actinidia, true, https://github.com/PlantandFoodResearch/bioinf_GBS_Actinidia, 1335, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Ceratocystis_comparative_genomics, true, https://github.com/PlantandFoodResearch/bioinf_Ceratocystis_comparative_genomics, 164, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+DS_Resolution, true, https://github.com/PlantandFoodResearch/DS_Resolution, 755045, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+APSIMTools, false, https://github.com/PlantandFoodResearch/APSIMTools, 3112, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+APSIM.Shared, false, https://github.com/PlantandFoodResearch/APSIM.Shared, 704, false, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, hol353, RobZys, HamishBrownPFR, eburgueno, ed2014, hrpmrl, hut104, josharp22, ekhaembah, rcichota, junqi108, Meiyalaghan, frank0434
+Fruit3dHelpers, true, https://github.com/PlantandFoodResearch/Fruit3dHelpers, 7222, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+FruitSizing, true, https://github.com/PlantandFoodResearch/FruitSizing, 147, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_Malus_Phylogeny, true, https://github.com/PlantandFoodResearch/bioinf_Malus_Phylogeny, 884, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+RainShelterOats, false, https://github.com/PlantandFoodResearch/RainShelterOats, 670, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Red9_RNAseq, true, https://github.com/PlantandFoodResearch/bioinf_Red9_RNAseq, 39, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+docker-netbox, false, https://github.com/PlantandFoodResearch/docker-netbox, 70, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_ActinidiaPSA, true, https://github.com/PlantandFoodResearch/bioinf_ActinidiaPSA, 183, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+bioinf_Malus_skinColor, true, https://github.com/PlantandFoodResearch/bioinf_Malus_skinColor, 1839, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_manukaRNASeq, true, https://github.com/PlantandFoodResearch/bioinf_manukaRNASeq, 1149, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MachineLearningforGenomics, true, https://github.com/PlantandFoodResearch/MachineLearningforGenomics, 228667, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl, charlesdavid
+bioinf_Malus_FruitQuality, true, https://github.com/PlantandFoodResearch/bioinf_Malus_FruitQuality, 1077, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Actinidia_phasing_workflows_evaluation, true, https://github.com/PlantandFoodResearch/bioinf_Actinidia_phasing_workflows_evaluation, 11, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_CNV_investigation, true, https://github.com/PlantandFoodResearch/bioinf_CNV_investigation, 5, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+long-read-seq, true, https://github.com/PlantandFoodResearch/long-read-seq, 5910, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+MBB_Lab_Protocols, true, https://github.com/PlantandFoodResearch/MBB_Lab_Protocols, 4495, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Bioprotection_electronic_lab_books, true, https://github.com/PlantandFoodResearch/Bioprotection_electronic_lab_books, 3, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MVI, false, https://github.com/PlantandFoodResearch/MVI, 25299, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Citrus_HZAU, true, https://github.com/PlantandFoodResearch/bioinf_Citrus_HZAU, 360, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+sftp-downloader, true, https://github.com/PlantandFoodResearch/sftp-downloader, 60, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_human_enteroendocrine_sensome, true, https://github.com/PlantandFoodResearch/bioinf_human_enteroendocrine_sensome, 188, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+Dotmatics, true, https://github.com/PlantandFoodResearch/Dotmatics, 11516, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, GuilhemPFR
+bioinf_appleCarotenoids, true, https://github.com/PlantandFoodResearch/bioinf_appleCarotenoids, 437, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+perlbrew.tcl, true, https://github.com/PlantandFoodResearch/perlbrew.tcl, 69, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+YieldEstimationTools, true, https://github.com/PlantandFoodResearch/YieldEstimationTools, 28474, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_Malus_Geisenheim, true, https://github.com/PlantandFoodResearch/bioinf_Malus_Geisenheim, 769, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+fcdb_webfront, true, https://github.com/PlantandFoodResearch/fcdb_webfront, 4971, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Pyrus_Adhoc, true, https://github.com/PlantandFoodResearch/bioinf_Pyrus_Adhoc, 198, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+data-registry, true, https://github.com/PlantandFoodResearch/data-registry, 447, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+assemblathon2-analysis, false, https://github.com/PlantandFoodResearch/assemblathon2-analysis, 24, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Vica, true, https://github.com/PlantandFoodResearch/Vica, 6167, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_mayflyProject, true, https://github.com/PlantandFoodResearch/bioinf_mayflyProject, 58, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+Red5_WGS_Manual_Annotation, false, https://github.com/PlantandFoodResearch/Red5_WGS_Manual_Annotation, 67652, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Prunus_ZFRI, true, https://github.com/PlantandFoodResearch/bioinf_Prunus_ZFRI, 270, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Python_Lessons, true, https://github.com/PlantandFoodResearch/bioinf_Python_Lessons, 280, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bio-targetsfile, true, https://github.com/PlantandFoodResearch/bio-targetsfile, 3967, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+SAE-Fluxmeter-Apsim, true, https://github.com/PlantandFoodResearch/SAE-Fluxmeter-Apsim, 23979, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FRNL-Monitor-Farms, true, https://github.com/PlantandFoodResearch/FRNL-Monitor-Farms, 21864, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MVI-FarmModelling, true, https://github.com/PlantandFoodResearch/MVI-FarmModelling, 40837, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ssh-only, true, https://github.com/PlantandFoodResearch/ssh-only, 32, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_NovaSeq_CAGRF15216, true, https://github.com/PlantandFoodResearch/bioinf_Malus_NovaSeq_CAGRF15216, 56, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Potato_SNPchip, true, https://github.com/PlantandFoodResearch/bioinf_Potato_SNPchip, 2632, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Vitis_Nicotiana_RNAseq, false, https://github.com/PlantandFoodResearch/bioinf_Vitis_Nicotiana_RNAseq, 1406, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+PFRgeospatial, true, https://github.com/PlantandFoodResearch/PFRgeospatial, 1968, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+NotTheBees, true, https://github.com/PlantandFoodResearch/NotTheBees, 12516, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, linleyj, MABroussard
+kea-client-api, true, https://github.com/PlantandFoodResearch/kea-client-api, 58, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+batchit, false, https://github.com/PlantandFoodResearch/batchit, 25, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PFRShiny, true, https://github.com/PlantandFoodResearch/PFRShiny, 3811, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, hymmikong
+transposon_annotation, true, https://github.com/PlantandFoodResearch/transposon_annotation, 4, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+bioinf_Rubus_idaeus, true, https://github.com/PlantandFoodResearch/bioinf_Rubus_idaeus, 674, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+DataApplications, true, https://github.com/PlantandFoodResearch/DataApplications, 28328, true, true, mdavy86, kiwiroy, zanejg, avowkind, htlin, eburgueno, hrpmrl, PeterJaksons, hrapgc, linleyj
+SensorNetworks, true, https://github.com/PlantandFoodResearch/SensorNetworks, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Trevally, true, https://github.com/PlantandFoodResearch/Trevally, 35166, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+MYBmotifs, true, https://github.com/PlantandFoodResearch/MYBmotifs, 1483, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_purpleActinidiaTranscriptomics, true, https://github.com/PlantandFoodResearch/bioinf_purpleActinidiaTranscriptomics, 28, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Ceratocystis_detection, true, https://github.com/PlantandFoodResearch/bioinf_Ceratocystis_detection, 2, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+bioinf_Actinidia_HZAU, true, https://github.com/PlantandFoodResearch/bioinf_Actinidia_HZAU, 3, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Siberia_Genome, true, https://github.com/PlantandFoodResearch/bioinf_Siberia_Genome, 1255, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+nelson-seafood, true, https://github.com/PlantandFoodResearch/nelson-seafood, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, CFNPMW
+bioinf_Venturia, true, https://github.com/PlantandFoodResearch/bioinf_Venturia, 2067, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Malus_Prevar_1506KHS-0017, true, https://github.com/PlantandFoodResearch/bioinf_Malus_Prevar_1506KHS-0017, 409, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Neonectria_Genome, true, https://github.com/PlantandFoodResearch/bioinf_Neonectria_Genome, 353, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_GBS_Pyrus, true, https://github.com/PlantandFoodResearch/bioinf_GBS_Pyrus, 1893, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_WAP_DB_populator, true, https://github.com/PlantandFoodResearch/FCDB_WAP_DB_populator, 5113, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+pfresetr, true, https://github.com/PlantandFoodResearch/pfresetr, 113, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+KateLindyMaryamTestRepo, false, https://github.com/PlantandFoodResearch/KateLindyMaryamTestRepo, 8, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ShinyStartR, true, https://github.com/PlantandFoodResearch/ShinyStartR, 16, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, hymmikong
+Turbo-Melanandra-Genome, true, https://github.com/PlantandFoodResearch/Turbo-Melanandra-Genome, 32819, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+bioinf_Phytophthora_genomics, true, https://github.com/PlantandFoodResearch/bioinf_Phytophthora_genomics, 312835, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+Delivering_Perfect_Fruit, true, https://github.com/PlantandFoodResearch/Delivering_Perfect_Fruit, 16486, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_Apis_metabarcoding, false, https://github.com/PlantandFoodResearch/bioinf_Apis_metabarcoding, 35, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+bioinf_Siberia_RNAseq, true, https://github.com/PlantandFoodResearch/bioinf_Siberia_RNAseq, 37621, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Sea_Freight, true, https://github.com/PlantandFoodResearch/Sea_Freight, 2, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Juicy_Future, true, https://github.com/PlantandFoodResearch/Juicy_Future, 1321, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_WAP_backend_API, true, https://github.com/PlantandFoodResearch/FCDB_WAP_backend_API, 11301, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_WAP_frontend, true, https://github.com/PlantandFoodResearch/FCDB_WAP_frontend, 92488, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+myrtle-rust-genome, true, https://github.com/PlantandFoodResearch/myrtle-rust-genome, 56807, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, davidchagne, christinawu2008
+DigitalPathology, true, https://github.com/PlantandFoodResearch/DigitalPathology, 774123, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, mwohlers
+GutCommunities, true, https://github.com/PlantandFoodResearch/GutCommunities, 992, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, linleyj
+bioinf-eDNA-ESP, true, https://github.com/PlantandFoodResearch/bioinf-eDNA-ESP, 83, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, AmaliT, eburgueno, hrpmrl
+SAE-LinkingModelsAndPhenotyping, true, https://github.com/PlantandFoodResearch/SAE-LinkingModelsAndPhenotyping, 354, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+grapevine_yield_components, true, https://github.com/PlantandFoodResearch/grapevine_yield_components, 61453, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, junqi108
+lsb-account-info, true, https://github.com/PlantandFoodResearch/lsb-account-info, 2512, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FCDB_WAP_website, true, https://github.com/PlantandFoodResearch/FCDB_WAP_website, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+TransposonMediatedMutagenesis, true, https://github.com/PlantandFoodResearch/TransposonMediatedMutagenesis, 1639, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, rosscrowhurst, hrpmrl, timothymillar, Deroles
+Actinidia_chinensis_Genome_CK69_01, true, https://github.com/PlantandFoodResearch/Actinidia_chinensis_Genome_CK69_01, 106955, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+AppSecret, true, https://github.com/PlantandFoodResearch/AppSecret, 201, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_epigenetics_spud, true, https://github.com/PlantandFoodResearch/bioinf_epigenetics_spud, 3, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+bioinf_filling_void, true, https://github.com/PlantandFoodResearch/bioinf_filling_void, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+VineSearchR, true, https://github.com/PlantandFoodResearch/VineSearchR, 20, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PFR_Management, true, https://github.com/PlantandFoodResearch/PFR_Management, 2096, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, linleyj
+bioinf_metaomicsPlantMicrobiome, true, https://github.com/PlantandFoodResearch/bioinf_metaomicsPlantMicrobiome, 25400, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+Actinidia_PSA_metabarcoding, true, https://github.com/PlantandFoodResearch/Actinidia_PSA_metabarcoding, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+bioinf_Blueberry, true, https://github.com/PlantandFoodResearch/bioinf_Blueberry, 5450, true, true, mdavy86, kiwiroy, zanejg, avowkind, CeciliaDeng, eburgueno, hrpmrl
+HoloGenomeViews, true, https://github.com/PlantandFoodResearch/HoloGenomeViews, 54, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+data-mgt-standards-genome-assembly, true, https://github.com/PlantandFoodResearch/data-mgt-standards-genome-assembly, 1, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Deroles
+data-mgt-standards-metabarcoding, true, https://github.com/PlantandFoodResearch/data-mgt-standards-metabarcoding, 3, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+production-bioinformatics, true, https://github.com/PlantandFoodResearch/production-bioinformatics, 548, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_honeylandscape, true, https://github.com/PlantandFoodResearch/bioinf_honeylandscape, 7416, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl, davidchagne
+MyrtleRustSimulations, true, https://github.com/PlantandFoodResearch/MyrtleRustSimulations, 452, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, mwohlers, PeterJaksons, Lindyguo, hrapgc, KKRichards, linleyj, RodelynJ, m-alavi, hrtcmm, HeatherKJenkins
+ensembl-hive-openlava, true, https://github.com/PlantandFoodResearch/ensembl-hive-openlava, 141, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+APSIM_Docker, false, https://github.com/PlantandFoodResearch/APSIM_Docker, 11, true, true
+VisualisingFruitQuality, true, https://github.com/PlantandFoodResearch/VisualisingFruitQuality, 8, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Peter-McAtee, mwohlers, PeterJaksons, Lindyguo, hrapgc, KKRichards, linleyj, RodelynJ, m-alavi, hrtcmm, HeatherKJenkins
+Phytosanitary_Stats, true, https://github.com/PlantandFoodResearch/Phytosanitary_Stats, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, mwohlers, PeterJaksons, Lindyguo, hrapgc, KKRichards, linleyj, RodelynJ, m-alavi, hrtcmm, HeatherKJenkins
+MBIE_TPP_Populations, true, https://github.com/PlantandFoodResearch/MBIE_TPP_Populations, 1054, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+HIA_soil_amplicon_sequencing, true, https://github.com/PlantandFoodResearch/HIA_soil_amplicon_sequencing, 46870, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+FRNL_Effluent, true, https://github.com/PlantandFoodResearch/FRNL_Effluent, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Metabolomics, true, https://github.com/PlantandFoodResearch/Metabolomics, 9737, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, tonymcghie
+KiwifruitDetection, true, https://github.com/PlantandFoodResearch/KiwifruitDetection, 174092, true, true, mdavy86, kiwiroy, dbentall, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+ebrida_trapdoor, true, https://github.com/PlantandFoodResearch/ebrida_trapdoor, 28341, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PFRTextMiner, true, https://github.com/PlantandFoodResearch/PFRTextMiner, 27790, true, true, mdavy86, kiwiroy, zanejg, avowkind, htlin, eburgueno, hrpmrl, PeterJaksons, linleyj, BlakeList
+bioinf_Radula, true, https://github.com/PlantandFoodResearch/bioinf_Radula, 45, true, true, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl
+Benchmarking_S-Map, true, https://github.com/PlantandFoodResearch/Benchmarking_S-Map, 39279, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, rcichota
+Kiwi-ClonalTrials-Stage2, true, https://github.com/PlantandFoodResearch/Kiwi-ClonalTrials-Stage2, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Lindyguo
+Kiwi-PreCommercialTrials-Stage3, true, https://github.com/PlantandFoodResearch/Kiwi-PreCommercialTrials-Stage3, 3532, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Lindyguo
+bioinf_blackberry_capture, true, https://github.com/PlantandFoodResearch/bioinf_blackberry_capture, 14, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+InteroperableModelsAPSIM, true, https://github.com/PlantandFoodResearch/InteroperableModelsAPSIM, 7303, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, rcichota
+tui, true, https://github.com/PlantandFoodResearch/tui, 49, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+kiwifruit-rga, true, https://github.com/PlantandFoodResearch/kiwifruit-rga, 1, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+EDT_TrackingValueChain, true, https://github.com/PlantandFoodResearch/EDT_TrackingValueChain, 6698, true, true, mdavy86, kiwiroy, zanejg, avowkind, htlin, eburgueno, hrpmrl, Lindyguo, linleyj
+PhenotypeToModelSAE, true, https://github.com/PlantandFoodResearch/PhenotypeToModelSAE, 33370, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, ed2014, hrpmrl
+CanopySensingSAE, true, https://github.com/PlantandFoodResearch/CanopySensingSAE, 14558, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, ed2014, hrpmrl, frank0434
+GenomeDynamicsOfHybrids, true, https://github.com/PlantandFoodResearch/GenomeDynamicsOfHybrids, 41205, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl, christinawu2008
+TimMillarPhD, true, https://github.com/PlantandFoodResearch/TimMillarPhD, 13293, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+kea_dotmatix_conduit, true, https://github.com/PlantandFoodResearch/kea_dotmatix_conduit, 12, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf_scInPlants, true, https://github.com/PlantandFoodResearch/bioinf_scInPlants, 14, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+PFR_Spinnaker_Ros_Node, false, https://github.com/PlantandFoodResearch/PFR_Spinnaker_Ros_Node, 239, false, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+pfr-imaging-library, true, https://github.com/PlantandFoodResearch/pfr-imaging-library, 106843, true, true, mdavy86, kiwiroy, dbentall, zanejg, avowkind, htlin, eburgueno, hrpmrl, ashtondavi, CFNPMW
+microPortal, true, https://github.com/PlantandFoodResearch/microPortal, 34844, true, true, mdavy86, kiwiroy, zanejg, avowkind, CeciliaDeng, AmaliT, eburgueno, hrpmrl
+Actinidia_ER10646, true, https://github.com/PlantandFoodResearch/Actinidia_ER10646, 13465, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+gene-expression-db, true, https://github.com/PlantandFoodResearch/gene-expression-db, 251, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, eburgueno, hrpmrl
+Grapes_Mask_RCNN, false, https://github.com/PlantandFoodResearch/Grapes_Mask_RCNN, 143176, false, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+mxnet_node, true, https://github.com/PlantandFoodResearch/mxnet_node, 15, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+Actinidia_ER10645, true, https://github.com/PlantandFoodResearch/Actinidia_ER10645, 470, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, eburgueno, hrpmrl
+psa-mutagensis, true, https://github.com/PlantandFoodResearch/psa-mutagensis, 5884, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ublox_gps_node, false, https://github.com/PlantandFoodResearch/ublox_gps_node, 604, false, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+KiwiCountDocs, true, https://github.com/PlantandFoodResearch/KiwiCountDocs, 40, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl, linleyj
+ckanext-pfr, false, https://github.com/PlantandFoodResearch/ckanext-pfr, 498, false, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+docker-ckan, false, https://github.com/PlantandFoodResearch/docker-ckan, 4131, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Optimized-Fish-Breeding-Model, true, https://github.com/PlantandFoodResearch/Optimized-Fish-Breeding-Model, 279, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, ashtondavi, CFNPMW
+GrapevineXL, true, https://github.com/PlantandFoodResearch/GrapevineXL, 145331, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, junqi108
+iRIS, true, https://github.com/PlantandFoodResearch/iRIS, 1935, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+sdjbrown-scriptorium, true, https://github.com/PlantandFoodResearch/sdjbrown-scriptorium, 411, true, true, mdavy86, kiwiroy, zanejg, sdjbrown, avowkind, eburgueno, hrpmrl
+hops-omics, true, https://github.com/PlantandFoodResearch/hops-omics, 14, true, true, mdavy86, kiwiroy, zanejg, avowkind, CeciliaDeng, eburgueno, hrpmrl, hrpelg
+manuka-genome-workflows, true, https://github.com/PlantandFoodResearch/manuka-genome-workflows, 43, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, AmaliT, eburgueno, hrpmrl
+BioVector, true, https://github.com/PlantandFoodResearch/BioVector, 127, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, warrenson, eburgueno, hrpmrl, timothymillar
+computer-vision, true, https://github.com/PlantandFoodResearch/computer-vision, 74590, true, true, mdavy86, kiwiroy, dbentall, zanejg, avowkind, htlin, eburgueno, hrpmrl, HRRMXJ, linleyj
+gillenia-omics, true, https://github.com/PlantandFoodResearch/gillenia-omics, 1469, true, true, mdavy86, kiwiroy, zanejg, avowkind, CeciliaDeng, eburgueno, hrpmrl, davidchagne
+PlantFoodFarm, true, https://github.com/PlantandFoodResearch/PlantFoodFarm, 24, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+PlantFoodLDAP, true, https://github.com/PlantandFoodResearch/PlantFoodLDAP, 4, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+ModellingTillagePractices, true, https://github.com/PlantandFoodResearch/ModellingTillagePractices, 156, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, ed2014, hrpmrl, rcichota
+MCHap, true, https://github.com/PlantandFoodResearch/MCHap, 473, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, timothymillar
+antirrhinum-anthocyanin-phylogeny, true, https://github.com/PlantandFoodResearch/antirrhinum-anthocyanin-phylogeny, 1411, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, christinawu2008
+stLFR-sequencing-trial, true, https://github.com/PlantandFoodResearch/stLFR-sequencing-trial, 454, true, true, mdavy86, kiwiroy, zanejg, avowkind, CeciliaDeng, eburgueno, hrpmrl, christinawu2008, hrpelg
+Actinidia_Russell_Pollen, true, https://github.com/PlantandFoodResearch/Actinidia_Russell_Pollen, 1, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+RemoteRX7, true, https://github.com/PlantandFoodResearch/RemoteRX7, 2389, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_ActinidiaMethylation, true, https://github.com/PlantandFoodResearch/bioinf_ActinidiaMethylation, 71, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+bioinf_MBIE_high_value_manuka_honey, true, https://github.com/PlantandFoodResearch/bioinf_MBIE_high_value_manuka_honey, 112, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl
+sap-projects, true, https://github.com/PlantandFoodResearch/sap-projects, 25, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+CropSuitabilityVisualisation, true, https://github.com/PlantandFoodResearch/CropSuitabilityVisualisation, 123118, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, ed2014, hrpmrl, frank0434
+PeaModelling, true, https://github.com/PlantandFoodResearch/PeaModelling, 9037, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, frank0434
+manuka-genome-ms-workflows, true, https://github.com/PlantandFoodResearch/manuka-genome-ms-workflows, 28, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, rosscrowhurst, hrpmrl
+Training, true, https://github.com/PlantandFoodResearch/Training, 26267, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+Bridging_the_Gap, true, https://github.com/PlantandFoodResearch/Bridging_the_Gap, 53, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, AmaliT, eburgueno, hrpmrl
+QuickTestMassBalanceCalculator, false, https://github.com/PlantandFoodResearch/QuickTestMassBalanceCalculator, 415, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, hymmikong, frank0434
+ACLM-Project, true, https://github.com/PlantandFoodResearch/ACLM-Project, 7545, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, linleyj, RodelynJ
+NLP-Applications, true, https://github.com/PlantandFoodResearch/NLP-Applications, 45082, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons, BlakeList
+bioinf_manuka_v2, true, https://github.com/PlantandFoodResearch/bioinf_manuka_v2, 10, true, true, mdavy86, kiwiroy, zanejg, avowkind, AmaliT, eburgueno, hrpmrl, davidchagne, christinawu2008, emkoot
+cori-thesis-project, true, https://github.com/PlantandFoodResearch/cori-thesis-project, 36, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+myrtle-rust-transcriptomics, true, https://github.com/PlantandFoodResearch/myrtle-rust-transcriptomics, 21677, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, charlesdavid
+radar-twist, false, https://github.com/PlantandFoodResearch/radar-twist, 5, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+FTIR-Analysis-Platform, true, https://github.com/PlantandFoodResearch/FTIR-Analysis-Platform, 472, true, true, cfljam, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons, BlakeList
+genomic-selection-platform, true, https://github.com/PlantandFoodResearch/genomic-selection-platform, 19329, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, PeterJaksons
+Ice_Plant, true, https://github.com/PlantandFoodResearch/Ice_Plant, 0, true, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl, Deroles
+eDNA-ecosystem-services, true, https://github.com/PlantandFoodResearch/eDNA-ecosystem-services, 5, true, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+shiny-server-deployment, true, https://github.com/PlantandFoodResearch/shiny-server-deployment, 5, true, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+data-mgt-standards-omics, true, https://github.com/PlantandFoodResearch/data-mgt-standards-omics, 1, true, false, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+newRPackage, true, https://github.com/PlantandFoodResearch/newRPackage, 19, false, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl
+bioinf-erwinia-amylovora, true, https://github.com/PlantandFoodResearch/bioinf-erwinia-amylovora, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+NIRFast-Matlab, true, https://github.com/PlantandFoodResearch/NIRFast-Matlab, 0, true, true, mdavy86, kiwiroy, zanejg, avowkind, ntomer, eburgueno, hrpmrl
+bioinf_Bilberry, true, https://github.com/PlantandFoodResearch/bioinf_Bilberry, 33843, true, true, mdavy86, kiwiroy, zanejg, avowkind, cflsjt, danwiththeplan, CeciliaDeng, warrenson, AmaliT, eburgueno, rosscrowhurst, hrpmrl, charlesdavid, davidchagne, timothymillar, Deroles, christinawu2008, broganmcgreal, jwan0714, ali-saei
+bioinf_vineyard_viruses, true, https://github.com/PlantandFoodResearch/bioinf_vineyard_viruses, 94, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+rna-seq-app, true, https://github.com/PlantandFoodResearch/rna-seq-app, 40, true, true, mdavy86, kiwiroy, zanejg, avowkind, danwiththeplan, eburgueno, hrpmrl
+ONT_CRISPR-Cas9_enrichment, false, https://github.com/PlantandFoodResearch/ONT_CRISPR-Cas9_enrichment, 746, true, true, mdavy86, kiwiroy, zanejg, avowkind, eburgueno, hrpmrl

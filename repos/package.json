@@ -1,0 +1,16 @@
+{
+  "name": "github-repos-to-csv",
+  "version": "1.0.0",
+  "description": "use graphql to export github repos to csv file",
+  "main": "pfr-repos-csv.mjs",
+  "scripts": {
+    "start": "node -r dotenv/config pfr-repos-csv.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Watkins",
+  "license": "MPL2",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
