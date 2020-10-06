@@ -4,7 +4,9 @@
   "description": "use graphql to export github repos to csv file",
   "main": "pfr-repos-csv.mjs",
   "scripts": {
-    "start": "node -r dotenv/config pfr-repos-csv.mjs",
+    "repos": "node -r dotenv/config ./pfr-repos-csv.mjs",
+    "issues": "node -r dotenv/config ./pfr-issues-csv.mjs",
+    "members": "node -r dotenv/config ./pfr-members-csv.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Watkins",

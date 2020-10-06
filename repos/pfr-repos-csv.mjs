@@ -22,6 +22,7 @@ async function getQuery (after) {
           url
           shortDescriptionHTML
           isPrivate
+          isArchived
           description
           primaryLanguage { name }
           diskUsage
@@ -61,7 +62,7 @@ async function main () {
   let outfile = null
   try {
     outfile = await fs.open(outfilename, 'w+')
-    const header = 'name, private, url, diskUsage, hasIssuesEnabled, hasWikiEnabled, Admins\n'
+    const header = 'name, private, archived, url, diskUsage, hasIssuesEnabled, hasWikiEnabled, Admins\n'
     await outfile.appendFile(header)
     let hasNextPage = true
     let after = ''
@@ -70,7 +71,7 @@ async function main () {
       const json = await getQuery(after)
       const nodes = json.data.organization.repositories.nodes
       nodes.forEach(async repo => {
-        let rep = `${repo.name}, ${repo.isPrivate}, ${repo.url}, ${repo.diskUsage}, ${repo.hasIssuesEnabled}, ${repo.hasWikiEnabled}`
+        let rep = `${repo.name}, ${repo.isPrivate}, ${repo.isArchived}, ${repo.url}, ${repo.diskUsage}, ${repo.hasIssuesEnabled}, ${repo.hasWikiEnabled}`
         if (repo.collaborators) {
           repo.collaborators.edges.forEach(colab => {
             if (colab.permission === 'ADMIN') {
