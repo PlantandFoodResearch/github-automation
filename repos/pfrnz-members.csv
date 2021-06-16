@@ -1,102 +1,206 @@
-role, login, name, email, totalRepositoryContributions,totalIssueContributions,totalCommitContributions,totalPullRequestContributions,totalRepositoryContributions,totalRepositoriesWithContributedIssues,totalRepositoriesWithContributedCommits,totalRepositoriesWithContributedPullRequests,endedAt,repos
-MEMBER, cfljam, John McCallum, , 0, 1, 0, 0, 0, 1, 0, 0, 2021-06-17, 
+
+> github-repos-to-csv@1.0.0 members-csv
+> node -r dotenv/config ./pfr-members-csv.mjs
+
+#MEMBER, cfljam, John McCallum, , 0, 1, 0, 0, 0, 1, 0, 0, 2021-06-17, 
+
 ADMIN, mdavy86, Marcus Davy, , 0, 4, 268, 39, 0, 3, 10, 11, 2021-06-17, "Trevally 204 2020-07-30","PFRBreedR 22 2020-06-17","Targeting_speciality_lncRNA 20 2020-10-07","PFRShiny 13 2020-06-26","RNASeq_community 3 2021-01-22","genomic-selection-platform 2 2020-06-22","kakapo 1 2021-02-11","ONT_CRISPR-Cas9_enrichment 1 2020-09-29","NLP-Applications 1 2020-09-01","GenomeDynamicsOfHybrids 1 2020-08-10"
+
 ADMIN, kiwiroy, Roy Storey, , 0, 0, 6, 2, 0, 0, 4, 2, 2021-06-17, "PFRBreedR 3 2020-07-06","Targeting_speciality_lncRNA 1 2020-10-29","MachineLearningforGenomics 1 2020-10-28","EnsemblExtensions 1 2020-07-21"
+
 MEMBER, dbentall, Daniel, , 0, 0, 27, 25, 0, 0, 1, 2, 2021-06-17, "computer-vision 27 2020-06-18"
+
 MEMBER, vladimir-mencl-eresearch, Vlad Mencl, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-ADMIN, zanejg, Zane Gilmore, , 0, 7, 25, 1, 0, 2, 4, 1, 2021-06-17, "Kea 21 2020-06-24","FCDB_WAP_DB_populator 2 2021-04-01","Training 1 2020-12-10","iRIS 1 2020-10-08"
+
+#ADMIN, zanejg, Zane Gilmore, , 0, 7, 25, 1, 0, 2, 4, 1, 2021-06-17, "Kea 21 2020-06-24","FCDB_WAP_DB_populator 2 2021-04-01","Training 1 2020-12-10","iRIS 1 2020-10-08"
+
 MEMBER, sdjbrown, null, , 0, 0, 2, 0, 0, 0, 1, 0, 2021-06-17, "sdjbrown-scriptorium 2 2020-06-29"
+
 ADMIN, avowkind, Andrew Watkins, andrew@groat.nz, 0, 2, 141, 37, 0, 1, 2, 3, 2021-06-17, "pfr-imaging-library 132 2020-12-08","computer-vision 9 2021-03-26"
+
 MEMBER, wilbuick, null, , 0, 0, 4, 2, 0, 0, 1, 1, 2021-06-17, "Kea 4 2020-08-27"
+
 MEMBER, hol353, Dean Holzworth, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, cflsjt, Susan Thomson, susan.thomson@plantandfood.co.nz, 0, 1, 68, 20, 0, 1, 7, 7, 2021-06-17, "Targeting_speciality_lncRNA 27 2020-07-20","clever_culling 14 2020-06-16","bioinf_Blueberry 8 2020-08-13","bioinf_blackcurrant 8 2020-07-24","GenomeDynamicsOfHybrids 6 2020-09-21","bioinf_Potato 3 2021-06-08","bioinf_Raspberry 2 2021-03-11"
+
+#MEMBER, cflsjt, Susan Thomson, susan.thomson@plantandfood.co.nz, 0, 1, 68, 20, 0, 1, 7, 7, 2021-06-17, "Targeting_speciality_lncRNA 27 2020-07-20","clever_culling 14 2020-06-16","bioinf_Blueberry 8 2020-08-13","bioinf_blackcurrant 8 2020-07-24","GenomeDynamicsOfHybrids 6 2020-09-21","bioinf_Potato 3 2021-06-08","bioinf_Raspberry 2 2021-03-11"
+
 MEMBER, danwiththeplan, Dan Jones, , 0, 2, 13, 0, 0, 2, 4, 0, 2021-06-17, "bioinf_vineyard_viruses 6 2020-08-21","bioinf_Bilberry 5 2020-06-18","bioinf-erwinia-amylovora 1 2021-05-06","RNASeq_community 1 2020-11-05"
+
 MEMBER, CeciliaDeng, Cecilia Deng, cmchd.822@gmail.com, 0, 0, 24, 10, 0, 0, 6, 9, 2021-06-17, "bioinf_Malus_FruitQuality 15 2020-07-10","bioinf_Blueberry 3 2020-08-05","bioinf_metaomicsPlantMicrobiome 2 2020-06-18","bioinf_Malus_ReSeq 2 2020-07-03","bioinf_GBS_Pyrus 1 2020-08-24","FishBreeding 1 2020-08-24"
+
 MEMBER, mgoo, Abby, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, warrenson, Benjamin Warren, , 0, 0, 16, 11, 0, 0, 4, 6, 2021-06-17, "MachineLearningforGenomics 7 2020-10-22","bioinf_Dietary-Plant-miRNAs-and-the-Human-Interactome 6 2020-08-25","efp-browser 2 2020-10-19","bioinf_Radula 1 2021-02-24"
-MEMBER, nznobody, Manu Lange, manulange_3@hotmail.com, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, nznobody, Manu Lange, manulange_3@hotmail.com, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, ntomer, Nathan Tomer, , 0, 0, 92, 1, 0, 0, 4, 1, 2021-06-17, "pfr-imaging-library 89 2020-09-15","RemoteRX7 1 2020-07-06","KiwiCountDocs 1 2020-06-22","computer-vision 1 2020-06-18"
+
 MEMBER, htlin, Harris Lin, , 0, 0, 33, 30, 0, 0, 2, 2, 2021-06-17, "pfr-imaging-library 21 2020-12-01","computer-vision 12 2020-10-30"
+
 MEMBER, patricksnelgar, Patrick, Patrick.Snelgar@plantandfood.co.nz, 0, 0, 1, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 1 2020-06-26"
+
 MEMBER, RobZys, null, , 0, 0, 35, 16, 0, 0, 2, 1, 2021-06-17, "PhenotypeToModelSAE 34 2020-11-12","Overseer-testing 1 2021-05-19"
-MEMBER, AmaliT, Amali Thrimawithana, , 0, 7, 8, 6, 0, 1, 5, 5, 2021-06-17, "bioinf_metaomicsPlantMicrobiome 3 2020-06-26","bioinf_MBIE_high_value_manuka_honey 2 2020-06-26","bioinf_appleCarotenoids 1 2020-09-04","Bridging_the_Gap 1 2020-07-21","bioinf_redFlesh_developmentalSeries 1 2020-06-25"
+
+#MEMBER, AmaliT, Amali Thrimawithana, , 0, 7, 8, 6, 0, 1, 5, 5, 2021-06-17, "bioinf_metaomicsPlantMicrobiome 3 2020-06-26","bioinf_MBIE_high_value_manuka_honey 2 2020-06-26","bioinf_appleCarotenoids 1 2020-09-04","Bridging_the_Gap 1 2020-07-21","bioinf_redFlesh_developmentalSeries 1 2020-06-25"
+
 MEMBER, PeterAlspach, Peter Alspach, paalspach@gmail.com, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, HamishBrownPFR, Hamish Brown, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, vnniyB, Vincent Borgers, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 ADMIN, eburgueno, Eric Burgueño, , 0, 4, 29, 14, 0, 1, 3, 2, 2021-06-17, "Infrastructure 23 2020-07-06","Training 5 2020-12-11","ShinyClimateChange 1 2020-06-16"
-MEMBER, ed2014, Edmar Teixeira, , 0, 29, 317, 89, 0, 2, 3, 2, 2021-06-17, "ShinyClimateChange 228 2020-06-18","PhenotypeToModelSAE 88 2020-07-03","CanopySensingSAE 1 2021-03-11"
+
+#MEMBER, ed2014, Edmar Teixeira, , 0, 29, 317, 89, 0, 2, 3, 2, 2021-06-17, "ShinyClimateChange 228 2020-06-18","PhenotypeToModelSAE 88 2020-07-03","CanopySensingSAE 1 2021-03-11"
+
 MEMBER, rosscrowhurst, Ross Crowhurst, , 0, 0, 8, 4, 0, 0, 2, 2, 2021-06-17, "Actinidia_chinensis_Genome_Russell 4 2020-12-18","Bioview 4 2020-10-06"
+
 ADMIN, hrpmrl, Matthew Laurenson, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, charlesdavid, Charles David, charles.david@plantandfood.co.nz, 0, 0, 11, 3, 0, 0, 1, 2, 2021-06-17, "MachineLearningforGenomics 11 2020-10-22"
+
 MEMBER, Peter-McAtee, Peter, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, mwohlers, null, , 0, 1, 2, 1, 0, 1, 1, 1, 2021-06-17, "SensoryDOE 2 2020-06-26"
+
+#MEMBER, mwohlers, null, , 0, 1, 2, 1, 0, 1, 1, 1, 2021-06-17, "SensoryDOE 2 2020-06-26"
+
 MEMBER, hymmikong, Hymmi Kong, , 0, 0, 1, 1, 0, 0, 1, 1, 2021-06-17, "PFRBreedR 1 2020-08-28"
+
 MEMBER, PeterJaksons, Peter Jaksons, , 0, 0, 5, 5, 0, 0, 1, 2, 2021-06-17, "genomic-selection-platform 5 2020-06-19"
+
 MEMBER, SMThompson1, Sarah Thompson, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, hut104, Neil Huth, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, josharp22, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, josharp22, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, ekhaembah, Edith Khaembah, edith.khaembah@plantandfood.co.nz, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, rcichota, Rogerio Cichota, rogerio.cichota@plantandfood.co.nz, 0, 1, 33, 32, 0, 1, 3, 3, 2021-06-17, "ShinyClimateChange 24 2020-06-17","ModellingTillagePractices 6 2020-06-17","Benchmarking_S-Map 3 2020-06-26"
+
 MEMBER, davidchagne, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, BrucePFR, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, junqi108, Junqi ZHU, , 0, 0, 40, 18, 0, 0, 1, 1, 2021-06-17, "ShinyClimateChange 40 2021-02-16"
+
+#MEMBER, junqi108, Junqi ZHU, , 0, 0, 40, 18, 0, 0, 1, 1, 2021-06-17, "ShinyClimateChange 40 2021-02-16"
+
 MEMBER, MareikeK, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, Lindyguo, Lindy GUO, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, timothymillar, Tim Millar, , 0, 0, 34, 13, 0, 0, 1, 1, 2021-06-17, "TimMillarPhD 34 2020-07-28"
+
 MEMBER, tonymcghie, Tony McGhie, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, hraczv, Charlotte Voogd, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+MEMBER, timothymillar, Tim Millar, , 0, 0, 34, 13, 0, 0, 1, 1, 2021-06-17, "TimMillarPhD 34 2020-07-28"
+
+#MEMBER, hraczv, Charlotte Voogd, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, bpauly, null, , 0, 0, 34, 8, 0, 0, 1, 1, 2021-06-17, "Infrastructure 34 2021-01-15"
+
 MEMBER, hrapgc, Patrick Connolly, patrick.connolly@plantandfood.co.nz, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, ashtondavi, David Ashton, ashtondavi@gmail.com, 0, 8, 347, 126, 0, 1, 1, 1, 2021-06-17, "pfr-imaging-library 347 2020-06-15"
+
 MEMBER, cflbxd, Brett Davis, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, cfnnpt, Nicholas Tuckey, , 0, 0, 68, 21, 0, 0, 1, 1, 2021-06-17, "pfr-imaging-library 68 2020-07-03"
+
+#MEMBER, cfnnpt, Nicholas Tuckey, , 0, 0, 68, 21, 0, 0, 1, 1, 2021-06-17, "pfr-imaging-library 68 2020-07-03"
+
 MEMBER, KKRichards, Kate, , 0, 0, 1, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 1 2020-06-26"
+
 MEMBER, InvisOn, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, yyangelpeng, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, Saadiah, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, LizPopowski, null, , 0, 0, 2, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 2 2020-07-09"
+
+#MEMBER, LizPopowski, null, , 0, 0, 2, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 2 2020-07-09"
+
 MEMBER, HRRMXJ, Mateusz Jochym, mateusz.jochym@plantandfood.co.nz, 0, 0, 5, 6, 0, 0, 1, 1, 2021-06-17, "NotTheBees 5 2020-07-09"
+
 MEMBER, Deroles, Simon Deroles, simon.deroles@plantandfood.co.nz, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, SetaPark, Shanthi Parkar, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, linleyj, Linley Jesson, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, kkramerwalter, Kris Kramer-Walter, Kris.kramer-walter@plantandfood.co.nz, 0, 0, 1, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 1 2020-06-26"
+
 MEMBER, Meiyalaghan, Mei Meiyalaghan, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, kkramerwalter, Kris Kramer-Walter, Kris.kramer-walter@plantandfood.co.nz, 0, 0, 1, 0, 0, 0, 1, 0, 2021-06-17, "sandpit 1 2020-06-26"
+
 MEMBER, dingyunxing, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, guypfr, Guy Davenport, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, jsabad, Jean Sabado, , 0, 0, 20, 6, 0, 0, 1, 1, 2021-06-17, "kakapo 20 2020-06-16"
-MEMBER, BlakeList, Blake List, , 0, 0, 22, 21, 0, 0, 4, 5, 2021-06-17, "NLP-Applications 12 2020-06-16","PFRShiny 6 2020-06-24","FTIR-Analysis-Platform 2 2020-08-31","PFRTextMiner 2 2020-08-23"
+
+#MEMBER, BlakeList, Blake List, , 0, 0, 22, 21, 0, 0, 4, 5, 2021-06-17, "NLP-Applications 12 2020-06-16","PFRShiny 6 2020-06-24","FTIR-Analysis-Platform 2 2020-08-31","PFRTextMiner 2 2020-08-23"
+
 MEMBER, caseyflay, Casey Flay, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, cfwaxh, Adrian Hunt, adrian.hunt@plantandfood.co.nz, 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, christinawu2008, Chen Wu, , 0, 0, 15, 6, 0, 0, 3, 3, 2021-06-17, "bioinf_Bilberry 7 2020-06-16","gillenia-omics 5 2020-06-16","Actinidia_ER10646 3 2020-07-21"
+
 MEMBER, GuilhemPFR-zz, null, , 0, 1, 0, 0, 0, 1, 0, 0, 2021-06-17, 
-MEMBER, jtahir, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, jtahir, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, broganmcgreal, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, appiarium, Appiarium user, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, RodelynJ, null, , 0, 0, 0, 10, 0, 0, 0, 1, 2021-06-17, 
+
 MEMBER, frank0434, Jian (AKA Frank) Liu , , 0, 17, 80, 20, 0, 2, 2, 3, 2021-06-17, "ShinyClimateChange 75 2020-06-15","fieldcrops 5 2020-06-29"
-MEMBER, m-alavi, Maryam Alavi, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, m-alavi, Maryam Alavi, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, hrpelg, Elena Lopez-Girona, , 0, 0, 0, 1, 0, 0, 0, 1, 2021-06-17, 
+
 MEMBER, noemievlz99, cfnnvt99, , 0, 1, 4, 1, 0, 1, 1, 1, 2021-06-17, "Trevally 4 2020-08-19"
+
 MEMBER, bhsridevi07, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, matangi15, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, CFNPMW, Peter Morrison-Whittle, , 0, 0, 23, 1, 0, 0, 1, 1, 2021-06-17, "pfr-imaging-library 23 2020-08-25"
+
+#MEMBER, CFNPMW, Peter Morrison-Whittle, , 0, 0, 23, 1, 0, 0, 1, 1, 2021-06-17, "pfr-imaging-library 23 2020-08-25"
+
 MEMBER, SumiyaK, null, , 0, 0, 77, 49, 0, 0, 2, 4, 2021-06-17, "pfr-imaging-library 68 2020-08-21","DigitalPathology 9 2020-07-30"
+
 MEMBER, hrrrzw, Robert Ward, , 0, 0, 7, 2, 0, 0, 1, 2, 2021-06-17, "CanopySensingSAE 7 2020-06-29"
+
 MEMBER, HRTBCP, Barry Peralta, , 0, 0, 0, 1, 0, 0, 0, 1, 2021-06-17, 
+
 MEMBER, hrtcmm, Catherine McKenzie, , 0, 0, 1, 0, 0, 0, 1, 0, 2021-06-17, "KateLindyMaryamTestRepo 1 2021-02-04"
-MEMBER, emkoot, Emily Koot, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, emkoot, Emily Koot, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, AndreMBellve, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, leorippel, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, cfncxf, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, sara-montanari, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, StephanieLanger, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, StephanieLanger, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, MichaelusNL, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, jwan0714, Jack Wang, Jack.Wang@plantandfood.co.nz, 0, 0, 70, 1, 0, 0, 2, 1, 2021-06-17, "RNASeq_community 41 2020-11-24","microPortal 29 2020-07-23"
+
 MEMBER, PFRMark, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, HeatherKJenkins, Heather Jenkins, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, mj-kramer, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, mj-kramer, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, Hrapll, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 ADMIN, hraaxm, Akbar Mahammad, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, krishnamoorthybabu, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
 MEMBER, CFPPPM, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
-MEMBER, hramgh, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+
+#MEMBER, hramgh, null, , 0, 0, 0, 0, 0, 0, 0, 0, 2021-06-17, 
+

@@ -6,7 +6,8 @@
   "scripts": {
     "repos": "node -r dotenv/config ./pfr-repos-csv.mjs",
     "issues": "node -r dotenv/config ./pfr-issues-csv.mjs",
-    "members": "node -r dotenv/config ./pfr-members-csv.mjs",
+    "members-csv": "node -r dotenv/config ./pfr-members-csv.mjs",
+    "members": "node -r dotenv/config ./pfr-members.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Watkins",

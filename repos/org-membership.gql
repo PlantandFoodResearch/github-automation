@@ -1,0 +1,23 @@
+{
+  "query": "{
+  enterprise(slug: \"pfrnz\") {
+    organizations(query: \"Plant & Food Research\", first: 1) {
+      nodes {
+        name
+        membersWithRole(first: 50) {
+          edges {
+            role
+            hasTwoFactorEnabled
+            node {
+              organizationVerifiedDomainEmails(login: \"pfrnz\")
+              login
+              databaseId
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}"
+}
